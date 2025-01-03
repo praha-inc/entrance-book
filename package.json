@@ -42,7 +42,7 @@
     "@agaroot/eslint-config-typescript": "2.0.8",
     "@tsconfig/next": "2.0.3",
     "@tsconfig/strictest": "2.0.5",
-    "@types/node": "22.8.2",
+    "@types/node": "22.10.5",
     "@types/react": "18.3.18",
     "eslint": "8.57.1",
     "typescript": "5.7.2"
