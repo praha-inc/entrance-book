@@ -8,7 +8,6 @@ export default {
     type: 'page',
     title: 'カジュアル面談に応募する',
     href: 'https://docs.google.com/forms/d/1whmNgig8TKm8qTvAAYm5xjYE-3twTW8IIIen1ZMlyZE/viewform',
-    newWindow: true,
   },
   'introduction-section': {
     type: 'separator',
