@@ -36,8 +36,8 @@ importers:
         specifier: 14.4.2
         version: 14.4.2
       textlint-rule-preset-smarthr:
-        specifier: 1.32.1
-        version: 1.32.1
+        specifier: 1.32.2
+        version: 1.32.2
     devDependencies:
       '@agaroot/eslint-config-common':
         specifier: 3.0.6
@@ -724,9 +724,6 @@ packages:
   '@textlint/markdown-to-ast@14.4.2':
     resolution: {integrity: sha512-hj2xR9hz5/Tu7Hlrn6VORJgdAfUhAd5j6cBkEVpnKAU4LaERkNyVCgK/da2JHK2w84YHmaDjER4D6zUUkllwag==}
 
-  '@textlint/module-interop@14.3.0':
-    resolution: {integrity: sha512-Adxkx8GSFVPhCZiveTD/u66f5T3W6yIlPUsKi7ZLar7ahYI/D4P/XfA0RNhgMF3xM4uw+vNrer2LcY4KY7cUfw==}
-
   '@textlint/module-interop@14.4.2':
     resolution: {integrity: sha512-PQqUgLcTnCTJ8qpYxLP6p98VzTP/Ju8QIDwTWYRpH00KHdmH9cR1/9O+l6YaWsJSGDtSL2zkMKIQLezpvBZ4cw==}
 
@@ -931,8 +928,8 @@ packages:
   ajv@8.17.1:
     resolution: {integrity: sha512-B/gBuNg5SiMTrPkC+A2+cW0RszwxYmn6VYxB/inlBStS5nx6xHIt/ehKRhIMhqusl7a8LjQoZnjCs5vhwxOQ1g==}
 
-  analyze-desumasu-dearu@5.0.1:
-    resolution: {integrity: sha512-r7ruCOqvqKxAzcvDzj7PdZOstOZP9wtw/wSIoV3FmNxF16CvytxhJnHYbSRhUwqzR542OO/J9CDRWS3SSp4hZA==}
+  analyze-desumasu-dearu@5.0.2:
+    resolution: {integrity: sha512-3PUxFk790GpQkME//hwiJellbtKMiAFX/CyA93etmAo5FujJ+5GKVXW+NU9v2MfF07iWcXsrNMbGW5/vVpqWwA==}
 
   ansi-regex@5.0.1:
     resolution: {integrity: sha512-quJQXlTSUGL2LH9SUXo8VwsY4soanhgo6LNSm84E1LBcE8s3O0wpdiRzyR9z/ZZJMlMWv37qOOb9pdJlMUEKFQ==}
@@ -3686,8 +3683,8 @@ packages:
   textlint-rule-no-hankaku-kana@2.0.1:
     resolution: {integrity: sha512-39s94HK6V1xnII1haYiYQnWy1YQAKK7Zj0mcpUMFHHC4M5JdsRnhGs6DQPVEff0gQIFV0iuDNlofXt15kjMtEA==}
 
-  textlint-rule-no-mix-dearu-desumasu@6.0.3:
-    resolution: {integrity: sha512-6yHxMUMEp8A267gIO9DB9ElNv5VBVNEpSUbxS6sUKZtETTGHQ3P6pdNW20EShvNfy3GA7gl1+vovkFPH8NEtYw==}
+  textlint-rule-no-mix-dearu-desumasu@6.0.4:
+    resolution: {integrity: sha512-SmALtOFbtmJ//k2iLMvtqhGrgJ/6uDVZFK7TBj2npVAbt10VxgLL87K+62pQ/BqiN9DpOVObshVFdug7lUOKHw==}
 
   textlint-rule-no-mixed-zenkaku-and-hankaku-alphabet@1.0.1:
     resolution: {integrity: sha512-jRiBtdslvtFNgWhCT1FZW0Ct5lfO3Af39iKJV20hxOZMhxM0sz+pnfmooEQ9wpAQm5kL+W1kJoX2O9uKw01AvA==}
@@ -3695,9 +3692,9 @@ packages:
   textlint-rule-no-nfd@2.0.2:
     resolution: {integrity: sha512-lIUvcQ+wqtConpPQU2YwEJl2dRcRyyrxPYZ3V76UwnkVg++XPLIrE5mLDgyNE/UIQ34e/KitJfMLqKWvnkFbNQ==}
 
-  textlint-rule-preset-smarthr@1.32.1:
-    resolution: {integrity: sha512-cXcT/jXlwsclqt7LswYdOGtnEY9OdC7quTxHPIJzmxgLMOOL3BfRMAv2LrljNjpzb6cvTuLlZRFPxsCBYRfdvw==}
-    engines: {pnpm: '=9.13.2'}
+  textlint-rule-preset-smarthr@1.32.2:
+    resolution: {integrity: sha512-7IUsJa5KACRVYrAdvVesFzl14d04uMYK7XxgLY4gShhwJPxudYjJ3JL1pwN4ESJ4FW4URvrJL6W21CPmrZWReQ==}
+    engines: {pnpm: '=10.4.1'}
 
   textlint-rule-prh@5.3.0:
     resolution: {integrity: sha512-gdod+lL1SWUDyXs1ICEwvQawaSshT3mvPGufBIjF2R5WFPdKQDMsiuzsjkLm+aF+9d97dA6pFsiyC8gSW7mSgg==}
@@ -4690,7 +4687,7 @@ snapshots:
   '@textlint/ast-tester@13.4.1':
     dependencies:
       '@textlint/ast-node-types': 13.4.1
-      debug: 4.3.6
+      debug: 4.4.0
     transitivePeerDependencies:
       - supports-color
 
@@ -4748,7 +4745,7 @@ snapshots:
       '@textlint/source-code-fixer': 13.4.1
       '@textlint/types': 13.4.1
       '@textlint/utils': 13.4.1
-      debug: 4.3.6
+      debug: 4.4.0
       fast-equals: 4.0.3
       structured-source: 4.0.0
     transitivePeerDependencies:
@@ -4791,7 +4788,7 @@ snapshots:
   '@textlint/markdown-to-ast@13.4.1':
     dependencies:
       '@textlint/ast-node-types': 13.4.1
-      debug: 4.3.6
+      debug: 4.4.0
       mdast-util-gfm-autolink-literal: 0.1.3
       remark-footnotes: 3.0.0
       remark-frontmatter: 3.0.0
@@ -4816,8 +4813,6 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@textlint/module-interop@14.3.0': {}
-
   '@textlint/module-interop@14.4.2': {}
 
   '@textlint/regexp-string-matcher@1.1.1':
@@ -4841,7 +4836,7 @@ snapshots:
   '@textlint/source-code-fixer@13.4.1':
     dependencies:
       '@textlint/types': 13.4.1
-      debug: 4.3.6
+      debug: 4.4.0
     transitivePeerDependencies:
       - supports-color
 
@@ -5013,7 +5008,7 @@ snapshots:
     dependencies:
       '@typescript-eslint/typescript-estree': 7.18.0(typescript@5.7.3)
       '@typescript-eslint/utils': 7.18.0(eslint@8.57.1)(typescript@5.7.3)
-      debug: 4.3.6
+      debug: 4.4.0
       eslint: 8.57.1
       ts-api-utils: 1.3.0(typescript@5.7.3)
     optionalDependencies:
@@ -5083,7 +5078,7 @@ snapshots:
       json-schema-traverse: 1.0.0
       require-from-string: 2.0.2
 
-  analyze-desumasu-dearu@5.0.1:
+  analyze-desumasu-dearu@5.0.2:
     dependencies:
       kuromojin: 3.0.0
 
@@ -8799,9 +8794,9 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  textlint-rule-no-mix-dearu-desumasu@6.0.3:
+  textlint-rule-no-mix-dearu-desumasu@6.0.4:
     dependencies:
-      analyze-desumasu-dearu: 5.0.1
+      analyze-desumasu-dearu: 5.0.2
       textlint-rule-helper: 2.3.1
 
   textlint-rule-no-mixed-zenkaku-and-hankaku-alphabet@1.0.1:
@@ -8815,10 +8810,10 @@ snapshots:
       match-index: 1.0.3
       textlint-rule-helper: 2.3.1
 
-  textlint-rule-preset-smarthr@1.32.1:
+  textlint-rule-preset-smarthr@1.32.2:
     dependencies:
       '@textlint-rule/textlint-rule-no-unmatched-pair': 2.0.4
-      '@textlint/module-interop': 14.3.0
+      '@textlint/module-interop': 14.4.2
       textlint-rule-ja-hiragana-daimeishi: 1.0.0
       textlint-rule-ja-hiragana-hojodoushi: 1.1.0
       textlint-rule-ja-keishikimeishi: 1.0.5
@@ -8839,7 +8834,7 @@ snapshots:
       textlint-rule-no-doubled-joshi: 5.1.0
       textlint-rule-no-dropping-the-ra: 3.0.0
       textlint-rule-no-hankaku-kana: 2.0.1
-      textlint-rule-no-mix-dearu-desumasu: 6.0.3
+      textlint-rule-no-mix-dearu-desumasu: 6.0.4
       textlint-rule-no-mixed-zenkaku-and-hankaku-alphabet: 1.0.1
       textlint-rule-no-nfd: 2.0.2
       textlint-rule-prh: 6.0.0
