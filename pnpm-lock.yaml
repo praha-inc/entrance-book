@@ -36,8 +36,8 @@ importers:
         specifier: 14.5.0
         version: 14.5.0
       textlint-rule-preset-smarthr:
-        specifier: 1.33.0
-        version: 1.33.0
+        specifier: 1.34.0
+        version: 1.34.0
     devDependencies:
       '@agaroot/eslint-config-common':
         specifier: 3.0.6
@@ -3710,9 +3710,9 @@ packages:
   textlint-rule-no-nfd@2.0.2:
     resolution: {integrity: sha512-lIUvcQ+wqtConpPQU2YwEJl2dRcRyyrxPYZ3V76UwnkVg++XPLIrE5mLDgyNE/UIQ34e/KitJfMLqKWvnkFbNQ==}
 
-  textlint-rule-preset-smarthr@1.33.0:
-    resolution: {integrity: sha512-vJxQZeBmdF8Nq0wm1qEuNoUL+pABjc8Empb7KWnlYsDs8btt2j3EU9kgTvhuh3/r/U0kvPnC3/Dpv0mHO9e9uQ==}
-    engines: {pnpm: '=10.6.2'}
+  textlint-rule-preset-smarthr@1.34.0:
+    resolution: {integrity: sha512-8JO6KT1CpcNtzoxOQQ/G7TeoCTdH9GGOMn4xmfcTTfS7ggD3BHM7SVG4MGYAceg0Czhd+n/EoQKp7yT053UKww==}
+    engines: {pnpm: '=10.6.5'}
 
   textlint-rule-prh@5.3.0:
     resolution: {integrity: sha512-gdod+lL1SWUDyXs1ICEwvQawaSshT3mvPGufBIjF2R5WFPdKQDMsiuzsjkLm+aF+9d97dA6pFsiyC8gSW7mSgg==}
@@ -8862,7 +8862,7 @@ snapshots:
       match-index: 1.0.3
       textlint-rule-helper: 2.3.1
 
-  textlint-rule-preset-smarthr@1.33.0:
+  textlint-rule-preset-smarthr@1.34.0:
     dependencies:
       '@textlint-rule/textlint-rule-no-unmatched-pair': 2.0.4
       '@textlint/module-interop': 14.5.0
