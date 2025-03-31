@@ -27,8 +27,8 @@
     "next-sitemap": "4.2.3",
     "nextra": "4.2.17",
     "nextra-theme-docs": "4.2.17",
-    "react": "19.0.0",
-    "react-dom": "19.0.0",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
     "remark-emoji": "5.0.1",
     "textlint": "14.5.0",
     "textlint-rule-preset-smarthr": "1.34.0"
