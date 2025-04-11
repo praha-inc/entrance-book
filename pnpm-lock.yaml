@@ -36,8 +36,8 @@ importers:
         specifier: 14.6.0
         version: 14.6.0
       textlint-rule-preset-smarthr:
-        specifier: 1.34.0
-        version: 1.34.0
+        specifier: 1.34.1
+        version: 1.34.1
     devDependencies:
       '@agaroot/eslint-config-common':
         specifier: 3.0.6
@@ -751,9 +751,6 @@ packages:
 
   '@textlint/markdown-to-ast@14.6.0':
     resolution: {integrity: sha512-T29IbY9cAupWBuds1DPl9TzS4oI2c0wVd0+0E43j5XezJKR3oE4e5/g9v4U2oo/LIbxDLlI22o3IGSyfUv3fFw==}
-
-  '@textlint/module-interop@14.5.0':
-    resolution: {integrity: sha512-nlFwHSYZJgSwXyF9PuHV3DcvRnObf64Mm4QWt9LaTr5zQB2MwEluaL8ROYL+sLJ4JhqNKpuqBT1EkTixPsN3cQ==}
 
   '@textlint/module-interop@14.6.0':
     resolution: {integrity: sha512-eQFprk37rU6Sl250h52OaoHA4Dal4jSjWYWRdKfjvrdDcNWxPAOenAAGBf66lS7E34No9E9G51jsSc43N0CzJg==}
@@ -3713,9 +3710,9 @@ packages:
   textlint-rule-no-nfd@2.0.2:
     resolution: {integrity: sha512-lIUvcQ+wqtConpPQU2YwEJl2dRcRyyrxPYZ3V76UwnkVg++XPLIrE5mLDgyNE/UIQ34e/KitJfMLqKWvnkFbNQ==}
 
-  textlint-rule-preset-smarthr@1.34.0:
-    resolution: {integrity: sha512-8JO6KT1CpcNtzoxOQQ/G7TeoCTdH9GGOMn4xmfcTTfS7ggD3BHM7SVG4MGYAceg0Czhd+n/EoQKp7yT053UKww==}
-    engines: {pnpm: '=10.6.5'}
+  textlint-rule-preset-smarthr@1.34.1:
+    resolution: {integrity: sha512-qdszTyuvNMO22EuSXDT2zcGUrN/6oTCRWQhh/ZKiH4HiYJHMecJP89bdYEJCdKUsEPrTFqqj6ONGa0Kfgd81CA==}
+    engines: {pnpm: '=10.8.0'}
 
   textlint-rule-prh@5.3.0:
     resolution: {integrity: sha512-gdod+lL1SWUDyXs1ICEwvQawaSshT3mvPGufBIjF2R5WFPdKQDMsiuzsjkLm+aF+9d97dA6pFsiyC8gSW7mSgg==}
@@ -4864,8 +4861,6 @@ snapshots:
       unified: 9.2.2
     transitivePeerDependencies:
       - supports-color
-
-  '@textlint/module-interop@14.5.0': {}
 
   '@textlint/module-interop@14.6.0': {}
 
@@ -8867,10 +8862,10 @@ snapshots:
       match-index: 1.0.3
       textlint-rule-helper: 2.3.1
 
-  textlint-rule-preset-smarthr@1.34.0:
+  textlint-rule-preset-smarthr@1.34.1:
     dependencies:
       '@textlint-rule/textlint-rule-no-unmatched-pair': 2.0.4
-      '@textlint/module-interop': 14.5.0
+      '@textlint/module-interop': 14.6.0
       textlint-rule-ja-hiragana-daimeishi: 1.0.0
       textlint-rule-ja-hiragana-hojodoushi: 1.1.0
       textlint-rule-ja-keishikimeishi: 1.0.5
