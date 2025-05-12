@@ -23,7 +23,6 @@ export const metadata: Metadata = {
   icons: companyImage,
   openGraph: {
     type: 'website',
-    title: '%s | PrAha Entrance Book',
     images: companyImage,
   },
 };
