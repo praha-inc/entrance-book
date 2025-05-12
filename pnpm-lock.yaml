@@ -36,8 +36,8 @@ importers:
         specifier: 14.7.1
         version: 14.7.1
       textlint-rule-preset-smarthr:
-        specifier: 1.34.0
-        version: 1.34.0
+        specifier: 1.35.0
+        version: 1.35.0
     devDependencies:
       '@agaroot/eslint-config-common':
         specifier: 3.0.6
@@ -751,9 +751,6 @@ packages:
 
   '@textlint/markdown-to-ast@14.7.1':
     resolution: {integrity: sha512-aKIJi1FZj8PYr/n9EYFsifofT2XNPDX9E/24PiFMNBjiOfovCayOpfn6iuqNEo3CEPx7w4d20rQOUnxD+GYzhg==}
-
-  '@textlint/module-interop@14.5.0':
-    resolution: {integrity: sha512-nlFwHSYZJgSwXyF9PuHV3DcvRnObf64Mm4QWt9LaTr5zQB2MwEluaL8ROYL+sLJ4JhqNKpuqBT1EkTixPsN3cQ==}
 
   '@textlint/module-interop@14.7.1':
     resolution: {integrity: sha512-9mfLErTFx8N+tZNTL+46YCY/jnCDOJKpceng5WVwDeZeMJbewhjY3PVcxMoPnvPT10QnE/hDk3b6riUYckgHgw==}
@@ -3683,9 +3680,6 @@ packages:
   textlint-rule-ja-space-between-half-and-full-width@2.4.2:
     resolution: {integrity: sha512-GqwSy0ivm4Q5Bok9LaOwfg+H1auLRMoMi2aY/7aSIrgvX/RD5aZ2Rk2lm3TTX42mR1UrQu8GDqktUEZfvQ913w==}
 
-  textlint-rule-max-ten@5.0.0:
-    resolution: {integrity: sha512-EWOvbEa3Ukxz0+GAUEJ91DYFSC3IkyJ10dBcsU6VlL33k1BvTRoFr3m26w6upnXJffXQUI70Etn39I++2duyhA==}
-
   textlint-rule-no-double-negative-ja@2.0.1:
     resolution: {integrity: sha512-LRofmNt+nd2mp+AHmG0ltk9AlbzKbWPE+EToYQ1zORCd8N8suE1YxNEplz9OeQ59ea9ITtudDIWoqeHaZnbDsg==}
 
@@ -3713,9 +3707,9 @@ packages:
   textlint-rule-no-nfd@2.0.2:
     resolution: {integrity: sha512-lIUvcQ+wqtConpPQU2YwEJl2dRcRyyrxPYZ3V76UwnkVg++XPLIrE5mLDgyNE/UIQ34e/KitJfMLqKWvnkFbNQ==}
 
-  textlint-rule-preset-smarthr@1.34.0:
-    resolution: {integrity: sha512-8JO6KT1CpcNtzoxOQQ/G7TeoCTdH9GGOMn4xmfcTTfS7ggD3BHM7SVG4MGYAceg0Czhd+n/EoQKp7yT053UKww==}
-    engines: {pnpm: '=10.6.5'}
+  textlint-rule-preset-smarthr@1.35.0:
+    resolution: {integrity: sha512-SNVPQskLR/cEKpTLRTSQKh3RF0lw34S1xK794un4IQghZf856fhDcPASPGfz/JztxaNIuaksO/NiM/ukuIWbqQ==}
+    engines: {pnpm: '=10.8.1'}
 
   textlint-rule-prh@5.3.0:
     resolution: {integrity: sha512-gdod+lL1SWUDyXs1ICEwvQawaSshT3mvPGufBIjF2R5WFPdKQDMsiuzsjkLm+aF+9d97dA6pFsiyC8gSW7mSgg==}
@@ -4864,8 +4858,6 @@ snapshots:
       unified: 9.2.2
     transitivePeerDependencies:
       - supports-color
-
-  '@textlint/module-interop@14.5.0': {}
 
   '@textlint/module-interop@14.7.1': {}
 
@@ -8808,13 +8800,6 @@ snapshots:
       match-index: 1.0.3
       textlint-rule-helper: 2.3.1
 
-  textlint-rule-max-ten@5.0.0:
-    dependencies:
-      kuromojin: 3.0.0
-      sentence-splitter: 5.0.0
-      textlint-rule-helper: 2.3.1
-      textlint-util-to-string: 3.3.4
-
   textlint-rule-no-double-negative-ja@2.0.1:
     dependencies:
       kuromojin: 3.0.0
@@ -8867,10 +8852,10 @@ snapshots:
       match-index: 1.0.3
       textlint-rule-helper: 2.3.1
 
-  textlint-rule-preset-smarthr@1.34.0:
+  textlint-rule-preset-smarthr@1.35.0:
     dependencies:
       '@textlint-rule/textlint-rule-no-unmatched-pair': 2.0.4
-      '@textlint/module-interop': 14.5.0
+      '@textlint/module-interop': 14.7.1
       textlint-rule-ja-hiragana-daimeishi: 1.0.0
       textlint-rule-ja-hiragana-hojodoushi: 1.1.0
       textlint-rule-ja-keishikimeishi: 1.0.5
@@ -8884,7 +8869,6 @@ snapshots:
       textlint-rule-ja-space-after-question: 2.4.2
       textlint-rule-ja-space-around-code: 2.4.2
       textlint-rule-ja-space-between-half-and-full-width: 2.4.2
-      textlint-rule-max-ten: 5.0.0
       textlint-rule-no-double-negative-ja: 2.0.1
       textlint-rule-no-doubled-conjunction: 3.0.0
       textlint-rule-no-doubled-conjunctive-particle-ga: 3.0.0

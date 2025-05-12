@@ -31,7 +31,7 @@
     "react-dom": "19.1.0",
     "remark-emoji": "5.0.1",
     "textlint": "14.7.1",
-    "textlint-rule-preset-smarthr": "1.34.0"
+    "textlint-rule-preset-smarthr": "1.35.0"
   },
   "devDependencies": {
     "@agaroot/eslint-config-common": "3.0.6",
