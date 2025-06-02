@@ -67,8 +67,8 @@ importers:
         specifier: 2.0.5
         version: 2.0.5
       '@types/node':
-        specifier: 22.15.27
-        version: 22.15.27
+        specifier: 22.15.29
+        version: 22.15.29
       '@types/react':
         specifier: 19.1.6
         version: 19.1.6
@@ -867,8 +867,8 @@ packages:
   '@types/nlcst@2.0.3':
     resolution: {integrity: sha512-vSYNSDe6Ix3q+6Z7ri9lyWqgGhJTmzRjZRqyq15N0Z/1/UnVsno9G/N40NBijoYx2seFDIl0+B2mgAb9mezUCA==}
 
-  '@types/node@22.15.27':
-    resolution: {integrity: sha512-5fF+eu5mwihV2BeVtX5vijhdaZOfkQTATrePEaXTcKqI16LhJ7gi2/Vhd9OZM0UojcdmiOCVg5rrax+i1MdoQQ==}
+  '@types/node@22.15.29':
+    resolution: {integrity: sha512-LNdjOkUDlU1RZb8e1kOIUpN1qQUlzGkEtbVNo53vbrwDg5om6oduhm4SiUaPW5ASTXhAiP0jInWG8Qx9fVlOeQ==}
 
   '@types/normalize-package-data@2.4.4':
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
@@ -5014,7 +5014,7 @@ snapshots:
     dependencies:
       '@types/unist': 3.0.2
 
-  '@types/node@22.15.27':
+  '@types/node@22.15.29':
     dependencies:
       undici-types: 6.21.0
 
