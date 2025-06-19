@@ -22,8 +22,8 @@
     "lint:type": "tsc --noEmit --pretty"
   },
   "dependencies": {
-    "@next/third-parties": "15.3.3",
-    "next": "15.3.3",
+    "@next/third-parties": "15.3.4",
+    "next": "15.3.4",
     "next-sitemap": "4.2.3",
     "nextra": "4.2.17",
     "nextra-theme-docs": "4.2.17",
