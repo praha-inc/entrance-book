@@ -30,8 +30,8 @@ importers:
         specifier: 19.1.1
         version: 19.1.1(react@19.1.1)
       remark-emoji:
-        specifier: 5.0.1
-        version: 5.0.1
+        specifier: 5.0.2
+        version: 5.0.2
       textlint:
         specifier: 15.2.2
         version: 15.2.2
@@ -3448,8 +3448,8 @@ packages:
   rehype-raw@7.0.0:
     resolution: {integrity: sha512-/aE8hCfKlQeA8LmyeyQvQF3eBiLRGNlfBJEvWH7ivp9sBqs7TNqBL5X3v157rM4IFETqDnIOO+z5M/biZbo9Ww==}
 
-  remark-emoji@5.0.1:
-    resolution: {integrity: sha512-QCqTSvcZ65Ym+P+VyBKd4JfJfh7icMl7cIOGVmPMzWkDtdD8pQ0nQG7yxGolVIiMzSx90EZ7SwNiVpYpfTxn7w==}
+  remark-emoji@5.0.2:
+    resolution: {integrity: sha512-IyIqGELcyK5AVdLFafoiNww+Eaw/F+rGrNSXoKucjo95uL267zrddgxGM83GN1wFIb68pyDuAsY3m5t2Cav1pQ==}
     engines: {node: '>=18'}
 
   remark-footnotes@3.0.0:
@@ -8671,7 +8671,7 @@ snapshots:
       hast-util-raw: 9.0.4
       vfile: 6.0.2
 
-  remark-emoji@5.0.1:
+  remark-emoji@5.0.2:
     dependencies:
       '@types/mdast': 4.0.4
       emoticon: 4.0.1
