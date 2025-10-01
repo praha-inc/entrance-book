@@ -27,8 +27,8 @@
     "next-sitemap": "4.2.3",
     "nextra": "4.5.1",
     "nextra-theme-docs": "4.5.1",
-    "react": "19.1.1",
-    "react-dom": "19.1.1",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
     "remark-emoji": "5.0.2",
     "textlint": "15.2.2",
     "textlint-rule-preset-smarthr": "1.36.1"
@@ -44,7 +44,7 @@
     "@tsconfig/next": "2.0.3",
     "@tsconfig/strictest": "2.0.6",
     "@types/node": "22.18.8",
-    "@types/react": "19.1.15",
+    "@types/react": "19.1.17",
     "eslint": "8.57.1",
     "pagefind": "1.4.0",
     "typescript": "5.9.2"
