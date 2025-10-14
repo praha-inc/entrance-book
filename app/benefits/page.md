@@ -56,11 +56,11 @@
 ### MacBook Proの支給
 希望者にMacBook Proを支給する制度です。
 
-2024年現在、支給されるMacBook Proのスペックは以下の通りです。
+2025年現在、支給されるMacBook Proのスペックは以下の通りです。
 
-- モデル: MacBook Pro(2023年11月)
+- モデル: MacBook Pro(2024年11月)
 - CPU: Apple M4 Pro
-- メモリ: 36GB
+- メモリ: 48GB
 - ディスプレイサイズ: 14インチ
 
 ※支給されるMacBook Proのスペックは、その時点で発売されている同等クラスの最新モデルとなります。（たとえばM5 Proが出たらM5 Proになります）
