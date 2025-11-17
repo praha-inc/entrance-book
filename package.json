@@ -44,7 +44,7 @@
     "@tsconfig/next": "2.0.4",
     "@tsconfig/strictest": "2.0.8",
     "@types/node": "22.19.1",
-    "@types/react": "19.2.4",
+    "@types/react": "19.2.5",
     "eslint": "8.57.1",
     "pagefind": "1.4.0",
     "typescript": "5.9.3"
