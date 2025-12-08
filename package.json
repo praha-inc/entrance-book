@@ -30,7 +30,7 @@
     "react": "19.2.0",
     "react-dom": "19.2.0",
     "remark-emoji": "5.0.2",
-    "textlint": "15.4.0",
+    "textlint": "15.4.1",
     "textlint-rule-preset-smarthr": "1.36.1"
   },
   "devDependencies": {
