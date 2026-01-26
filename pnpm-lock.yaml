@@ -22,7 +22,7 @@ importers:
         version: 4.6.1(next@15.5.9(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3)
       nextra-theme-docs:
         specifier: 4.6.1
-        version: 4.6.1(@types/react@19.2.8)(next@15.5.9(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(nextra@4.6.1(next@15.5.9(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3))(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
+        version: 4.6.1(@types/react@19.2.9)(next@15.5.9(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(nextra@4.6.1(next@15.5.9(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3))(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
       react:
         specifier: 19.2.3
         version: 19.2.3
@@ -70,8 +70,8 @@ importers:
         specifier: 24.10.9
         version: 24.10.9
       '@types/react':
-        specifier: 19.2.8
-        version: 19.2.8
+        specifier: 19.2.9
+        version: 19.2.9
       eslint:
         specifier: 8.57.1
         version: 8.57.1
@@ -924,8 +924,8 @@ packages:
   '@types/normalize-package-data@2.4.4':
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
 
-  '@types/react@19.2.8':
-    resolution: {integrity: sha512-3MbSL37jEchWZz2p2mjntRZtPt837ij10ApxKfgmXCTuHWagYg7iA5bqPw6C8BMPfwidlvfPI/fxOc42HLhcyg==}
+  '@types/react@19.2.9':
+    resolution: {integrity: sha512-Lpo8kgb/igvMIPeNV2rsYKTgaORYdO1XGVZ4Qz3akwOj0ySGYMPlQWa8BaLn0G63D1aSaAQ5ldR06wCpChQCjA==}
 
   '@types/unist@2.0.10':
     resolution: {integrity: sha512-IfYcSBWE3hLpBg8+X2SEa8LVkJdJEkT2Ese2aaLs3ptGdVtABxndrMaxuFlQ1qdFf9Q5rDvDpxI3WwgvKFAsQA==}
@@ -5345,7 +5345,7 @@ snapshots:
 
   '@types/normalize-package-data@2.4.4': {}
 
-  '@types/react@19.2.8':
+  '@types/react@19.2.9':
     dependencies:
       csstype: 3.2.3
 
@@ -8249,7 +8249,7 @@ snapshots:
       - '@babel/core'
       - babel-plugin-macros
 
-  nextra-theme-docs@4.6.1(@types/react@19.2.8)(next@15.5.9(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(nextra@4.6.1(next@15.5.9(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3))(react-dom@19.2.3(react@19.2.3))(react@19.2.3):
+  nextra-theme-docs@4.6.1(@types/react@19.2.9)(next@15.5.9(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(nextra@4.6.1(next@15.5.9(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(typescript@5.9.3))(react-dom@19.2.3(react@19.2.3))(react@19.2.3):
     dependencies:
       '@headlessui/react': 2.1.9(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
       clsx: 2.1.1
@@ -8261,7 +8261,7 @@ snapshots:
       react-dom: 19.2.3(react@19.2.3)
       scroll-into-view-if-needed: 3.1.0
       zod: 4.1.13
-      zustand: 5.0.3(@types/react@19.2.8)(react@19.2.3)
+      zustand: 5.0.3(@types/react@19.2.9)(react@19.2.3)
     transitivePeerDependencies:
       - '@types/react'
       - immer
@@ -9952,9 +9952,9 @@ snapshots:
 
   zod@4.1.13: {}
 
-  zustand@5.0.3(@types/react@19.2.8)(react@19.2.3):
+  zustand@5.0.3(@types/react@19.2.9)(react@19.2.3):
     optionalDependencies:
-      '@types/react': 19.2.8
+      '@types/react': 19.2.9
       react: 19.2.3
 
   zwitch@1.0.5: {}
