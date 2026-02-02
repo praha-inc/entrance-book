@@ -36,8 +36,8 @@ importers:
         specifier: 15.5.1
         version: 15.5.1(hono@4.11.5)
       textlint-rule-preset-smarthr:
-        specifier: 1.36.1
-        version: 1.36.1
+        specifier: 1.37.0
+        version: 1.37.0
     devDependencies:
       '@agaroot/eslint-config-common':
         specifier: 3.0.6
@@ -784,6 +784,9 @@ packages:
   '@textlint-rule/textlint-rule-no-unmatched-pair@2.0.4':
     resolution: {integrity: sha512-g9Ge1xUV9xJy8T7nuutF/2J6Cg2mmPx4gKsC3dCdxVxuL0wMqOOnAi8l6psFpAQ5UFtQuAzwkdclrehPtBT5tg==}
 
+  '@textlint-rule/textlint-rule-pattern@2.0.2':
+    resolution: {integrity: sha512-qkEr3LZmEeJl9x70pX9ZVkqLNgdpHLVCtBUDM9kvRxTd1XEyWT9ZReZegJPWvbiWWanlfzZg75kR/A6SPZ8n5A==}
+
   '@textlint/ast-node-types@13.4.1':
     resolution: {integrity: sha512-qrZyhCh8Ekk6nwArx3BROybm9BnX6vF7VcZbijetV/OM3yfS4rTYhoMWISmhVEP2H2re0CtWEyMl/XF+WdvVLQ==}
 
@@ -828,9 +831,6 @@ packages:
 
   '@textlint/markdown-to-ast@15.5.1':
     resolution: {integrity: sha512-AURGlE1VxKqIKCk81DkBf5GvTX/GBZ+iGBdxkwiRhjDKOTLSWXM5yklcnlaTiytP+iDTERrtqq9ow260Bw13xQ==}
-
-  '@textlint/module-interop@14.8.4':
-    resolution: {integrity: sha512-1LdPYLAVpa27NOt6EqvuFO99s4XLB0c19Hw9xKSG6xQ1K82nUEyuWhzTQKb3KJ5Qx7qj14JlXZLfnEuL6A16Bw==}
 
   '@textlint/module-interop@15.5.1':
     resolution: {integrity: sha512-Y1jcFGCKNSmHxwsLO3mshOfLYX4Wavq2+w5BG6x5lGgZv0XrF1xxURRhbnhns4LzCu0fAcx6W+3V8/1bkyTZCw==}
@@ -3986,8 +3986,8 @@ packages:
   textlint-rule-no-nfd@2.0.2:
     resolution: {integrity: sha512-lIUvcQ+wqtConpPQU2YwEJl2dRcRyyrxPYZ3V76UwnkVg++XPLIrE5mLDgyNE/UIQ34e/KitJfMLqKWvnkFbNQ==}
 
-  textlint-rule-preset-smarthr@1.36.1:
-    resolution: {integrity: sha512-aGldCA0wMU8XeE51OyB57HxsYLrbKhpLyzZ9m4Q1DzlA18XbI+5MdAHUjis/C4cWhrQsCYCuEkrKnC+QgrT+wA==}
+  textlint-rule-preset-smarthr@1.37.0:
+    resolution: {integrity: sha512-zZe8EN+E2u/K8vxXnELwY5JkRzyD7qYa4dfIeQHVfHJLWuOxsnmQc1JslI0QTuVHBiPUvfbfB0cDhDvBB04xYA==}
     engines: {pnpm: '=10.16.1'}
 
   textlint-rule-prh@5.3.0:
@@ -4557,7 +4557,7 @@ snapshots:
       globals: 13.24.0
       ignore: 5.3.2
       import-fresh: 3.3.0
-      js-yaml: 4.1.0
+      js-yaml: 4.1.1
       minimatch: 3.1.2
       strip-json-comments: 3.1.1
     transitivePeerDependencies:
@@ -5078,6 +5078,11 @@ snapshots:
       sentence-splitter: 5.0.0
       textlint-rule-helper: 2.3.1
 
+  '@textlint-rule/textlint-rule-pattern@2.0.2':
+    dependencies:
+      '@textlint/regexp-string-matcher': 2.0.2
+      textlint-rule-helper: 2.3.1
+
   '@textlint/ast-node-types@13.4.1': {}
 
   '@textlint/ast-node-types@15.5.1': {}
@@ -5211,8 +5216,6 @@ snapshots:
       unified: 9.2.2
     transitivePeerDependencies:
       - supports-color
-
-  '@textlint/module-interop@14.8.4': {}
 
   '@textlint/module-interop@15.5.1': {}
 
@@ -9452,10 +9455,12 @@ snapshots:
       match-index: 1.0.3
       textlint-rule-helper: 2.3.1
 
-  textlint-rule-preset-smarthr@1.36.1:
+  textlint-rule-preset-smarthr@1.37.0:
     dependencies:
       '@textlint-rule/textlint-rule-no-unmatched-pair': 2.0.4
-      '@textlint/module-interop': 14.8.4
+      '@textlint-rule/textlint-rule-pattern': 2.0.2
+      '@textlint/module-interop': 15.5.1
+      js-yaml: 4.1.1
       textlint-rule-ja-hiragana-daimeishi: 1.0.0
       textlint-rule-ja-hiragana-hojodoushi: 1.1.0
       textlint-rule-ja-keishikimeishi: 1.0.5
