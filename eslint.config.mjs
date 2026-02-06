@@ -15,6 +15,9 @@ const config = define([
   next,
 ]);
 
-export default config({
-  tsconfigPath: './tsconfig.json',
-});
+export default [
+  { ignores: ['next-env.d.ts'] },
+  ...config({
+    tsconfigPath: './tsconfig.json',
+  }),
+];
