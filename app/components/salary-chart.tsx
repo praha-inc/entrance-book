@@ -77,7 +77,7 @@ export const SalaryChart = ({ data }: Props) => (
       </div>
     </div>
     <ResponsiveContainer>
-      <LineChart data={data} margin={{ top: 35, right: 30, left: 50, bottom: 20 }}>
+      <LineChart data={data} margin={{ top: 35, right: 30, left: 0, bottom: 20 }}>
         <defs>
           <filter id="glow">
             <feGaussianBlur stdDeviation="3" result="coloredBlur" />
