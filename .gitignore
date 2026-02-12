@@ -3,3 +3,4 @@ node_modules
 out
 tsconfig.tsbuildinfo
 _pagefind/
+next-env.d.ts
