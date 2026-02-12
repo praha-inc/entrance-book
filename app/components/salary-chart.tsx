@@ -59,19 +59,19 @@ const CustomMedianLabel = (
 };
 
 export const SalaryChart = ({ data }: Props) => (
-  <div className={styles.chart}>
-    <div className={styles.legend}>
-      <div className={styles.legendItem}>
-        <div className={styles.legendLine}>
-          <div className={styles.legendLineInner} style={{ background: 'var(--chart-primary)' }} />
-          <div className={styles.legendDot} style={{ borderColor: 'var(--chart-primary)' }} />
+  <div className={styles['chart']}>
+    <div className={styles['legend']}>
+      <div className={styles['legendItem']}>
+        <div className={styles['legendLine']}>
+          <div className={styles['legendLineInner']} style={{ background: 'var(--chart-primary)' }} />
+          <div className={styles['legendDot']} style={{ borderColor: 'var(--chart-primary)' }} />
         </div>
         <span style={{ color: 'var(--chart-primary)' }}>平均年収</span>
       </div>
-      <div className={styles.legendItem}>
-        <div className={styles.legendLine}>
-          <div className={styles.legendLineInner} style={{ background: 'var(--chart-secondary)' }} />
-          <div className={styles.legendDot} style={{ borderColor: 'var(--chart-secondary)' }} />
+      <div className={styles['legendItem']}>
+        <div className={styles['legendLine']}>
+          <div className={styles['legendLineInner']} style={{ background: 'var(--chart-secondary)' }} />
+          <div className={styles['legendDot']} style={{ borderColor: 'var(--chart-secondary)' }} />
         </div>
         <span style={{ color: 'var(--chart-secondary)' }}>中央年収</span>
       </div>

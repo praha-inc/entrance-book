@@ -5,7 +5,6 @@
     "@tsconfig/next/tsconfig.json"
   ],
   "compilerOptions": {
-    "noPropertyAccessFromIndexSignature": false,
     "strictNullChecks": true,
     "plugins": [
       {
