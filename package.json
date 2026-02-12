@@ -29,6 +29,7 @@
     "nextra-theme-docs": "4.6.1",
     "react": "19.2.4",
     "react-dom": "19.2.4",
+    "recharts": "3.7.0",
     "remark-emoji": "5.0.2",
     "textlint": "15.5.1",
     "textlint-rule-preset-smarthr": "1.37.0"

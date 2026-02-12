@@ -1,0 +1,74 @@
+.chart {
+  --chart-primary: #6366f1;
+  --chart-secondary: #10b981;
+  --chart-primary-label: #4f46e5;
+  --chart-secondary-label: #059669;
+  --chart-text: #71717a;
+  --chart-grid: rgba(0, 0, 0, 0.06);
+  --chart-axis: rgba(0, 0, 0, 0.1);
+  --chart-dot-fill: #fff;
+  --chart-bg: linear-gradient(180deg, rgba(249, 250, 251, 0.8) 0%, rgba(249, 250, 251, 0.4) 100%);
+
+  width: 100%;
+  height: 420px;
+  background: var(--chart-bg);
+  border-radius: 16px;
+  padding: 24px 16px 16px 16px;
+  position: relative;
+}
+
+:global(.dark) .chart {
+  --chart-primary-label: #a5b4fc;
+  --chart-secondary-label: #34d399;
+  --chart-text: #a1a1aa;
+  --chart-grid: rgba(255, 255, 255, 0.06);
+  --chart-axis: rgba(255, 255, 255, 0.1);
+  --chart-dot-fill: #111;
+  --chart-bg: linear-gradient(180deg, rgba(17, 17, 17, 0.6) 0%, rgba(17, 17, 17, 0.3) 100%);
+}
+
+.legend {
+  position: absolute;
+  bottom: 100px;
+  right: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 8px 12px;
+  border: 1px solid var(--chart-axis);
+  border-radius: 6px;
+}
+
+.legendItem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.legendLine {
+  width: 20px;
+  height: 10px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.legendLineInner {
+  width: 100%;
+  height: 3px;
+  border-radius: 2px;
+}
+
+.legendDot {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--chart-dot-fill);
+  border-width: 2px;
+  border-style: solid;
+}
