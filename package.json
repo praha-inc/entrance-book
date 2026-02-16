@@ -44,7 +44,7 @@
     "@praha/eslint-config-typescript": "3.0.12",
     "@tsconfig/next": "2.0.5",
     "@tsconfig/strictest": "2.0.8",
-    "@types/node": "24.10.12",
+    "@types/node": "24.10.13",
     "@types/react": "19.2.13",
     "eslint": "9.39.2",
     "pagefind": "1.4.0",
