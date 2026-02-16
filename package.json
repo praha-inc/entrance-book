@@ -50,5 +50,5 @@
     "pagefind": "1.4.0",
     "typescript": "5.9.3"
   },
-  "packageManager": "pnpm@10.29.2"
+  "packageManager": "pnpm@10.29.3"
 }
