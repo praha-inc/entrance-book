@@ -4,6 +4,11 @@ export default {
       breadcrumb: false,
     },
   },
+  'home-page': {
+    type: 'page',
+    title: '会社ホームページ',
+    href: 'https://www.praha-inc.com/',
+  },
   'casual-interview-form': {
     type: 'page',
     title: 'カジュアル面談に応募する',
