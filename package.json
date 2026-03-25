@@ -22,14 +22,14 @@
     "lint:type": "tsc --noEmit --pretty"
   },
   "dependencies": {
-    "@next/third-parties": "15.5.12",
-    "next": "15.5.12",
+    "@next/third-parties": "15.5.14",
+    "next": "15.5.14",
     "next-sitemap": "4.2.3",
     "nextra": "4.6.1",
     "nextra-theme-docs": "4.6.1",
     "react": "19.2.4",
     "react-dom": "19.2.4",
-    "recharts": "3.7.0",
+    "recharts": "3.8.0",
     "remark-emoji": "5.0.2",
     "textlint": "15.5.2",
     "textlint-rule-preset-smarthr": "1.37.0"
@@ -44,11 +44,11 @@
     "@praha/eslint-config-typescript": "3.0.12",
     "@tsconfig/next": "2.0.6",
     "@tsconfig/strictest": "2.0.8",
-    "@types/node": "24.11.0",
+    "@types/node": "24.12.0",
     "@types/react": "19.2.14",
-    "eslint": "9.39.3",
+    "eslint": "9.39.4",
     "pagefind": "1.4.0",
     "typescript": "5.9.3"
   },
-  "packageManager": "pnpm@10.30.3"
+  "packageManager": "pnpm@10.32.1"
 }
