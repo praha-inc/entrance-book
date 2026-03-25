@@ -35,5 +35,10 @@ export default {
     title: '採用情報',
   },
   'web-engineer-recruit': 'Webエンジニア',
-  'ui-ux-designer-recruit': 'UI/UXデザイナー',
+  // 2024/03/06: デザイナー募集を一時的に非公開
+  // 再度募集する際はdisplay: 'hidden'を削除してください
+  'ui-ux-designer-recruit': {
+    title: 'UI/UXデザイナー',
+    display: 'hidden',
+  },
 };
