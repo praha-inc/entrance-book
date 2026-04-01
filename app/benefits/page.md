@@ -138,15 +138,21 @@ OSS活動では、以下のようなものを公開しています。
 ### PrAha Challenge代の全額負担
 弊社の自社サービスである「[PrAha Challenge](https://praha-challenge.com/)」（10,780円/月）を無料で受けられる制度です。
 
-### AI系プロダクトの使用料支援
-100ドル/月までのAI系プロダクトの使用料を全額負担する制度です。
+### AI系プロダクトの利用補助
 
-### Claude代の全額負担
-[ClaudeのTeamプラン](https://claude.com/pricing/team)を導入しております。  
-Standard seatかPremium seatをお選びいただけます。
+#### GitHub Copilot代の全額負担
 
-### GitHub Copilot代の全額負担
 GitHub Copilot代（10ドル/月）を全額負担する制度です。
+
+#### Claude Team Planの全額負担
+          
+Claude Team Plan（スタンダードシート/プレミアムシート）の利用料を全額負担する制度です。
+
+#### AI系プロダクトの使用料支援
+
+100ドル(外税)/月までのAI系プロダクトの使用料を支援する制度です。
+
+合計金額が月100ドル（外税）以内であれば、複数のプロダクトを利用できます。
 
 ### 人間ドック代の全額負担
 人間ドック（上限7万円）を無料で受けられる制度です。
