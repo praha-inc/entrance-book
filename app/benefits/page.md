@@ -70,20 +70,9 @@
 
 技術記事は、[Zenn](https://zenn.dev/p/praha)に投稿しています。
 
-OSS活動では、以下のようなものを公開しています。
-- [LooksToMe](https://looks-to.me/)
-  - プルリク上でのやり取りに使える「LGTM」の画像を作れるサービス。
-- [feedbackun](https://github.com/praha-inc/feedbackun)
-  - 360度評価ツール。
-  - Slack上で動作し、任意のスタンプを押すと、その人の良い行動を評価できるツール。
-- [Merge Master](https://github.com/praha-inc/merge-master)
-  - 大量のプルリクがあるときに、すべてを順番に良い感じにマージしてくれるGitHub Actionsのカスタムアクション。
-- [zundamon](https://github.com/praha-inc/zundamon)
-  - ずんだもんのような喋り方をするChatGPTのSlackBot。
-  - 追加すると@zunndamonnにメンションできるようになる。
-- [GitHub Actionsでブランチ名を制限する系のカスタムアクションいろいろ](https://zenn.dev/praha/articles/11acc8f530078a)
+byethrowやdrizzle-factoryなどのOSSを公開しており、公開しているOSSの一覧・詳細は、[公式HP](https://www.praha-inc.com/works/)をご確認ください。
 
-その他にもCTO室では、社内の技術的課題解決や技術的意思決定を行なっています。
+その他にもCTO室では、社内の技術的課題解決や技術的意思決定を行っています
 
 ### ワーケーション
 みんなでホテルに集まって仕事しようという制度です。
