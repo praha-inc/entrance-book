@@ -73,14 +73,18 @@
 OSS活動では、以下のようなものを公開しています。
 - [LooksToMe](https://looks-to.me/)
   - プルリク上でのやり取りに使える「LGTM」の画像を作れるサービス。
-- [feedbackun](https://github.com/praha-inc/feedbackun)
-  - 360度評価ツール。
-  - Slack上で動作し、任意のスタンプを押すと、その人の良い行動を評価できるツール。
 - [Merge Master](https://github.com/praha-inc/merge-master)
   - 大量のプルリクがあるときに、すべてを順番に良い感じにマージしてくれるGitHub Actionsのカスタムアクション。
-- [zundamon](https://github.com/praha-inc/zundamon)
-  - ずんだもんのような喋り方をするChatGPTのSlackBot。
-  - 追加すると@zunndamonnにメンションできるようになる。
+- [byethrow](https://github.com/praha-inc/byethrow)
+  - 軽量でツリーシェイク可能なResult型ライブラリ。
+- [diva](https://github.com/praha-inc/diva)
+  - 軽量で型安全なTypeScript向けDIライブラリ。
+- [tagged](https://github.com/praha-inc/tagged)
+  - 軽量なTypeScript向けタグ付きユニオン（判別共用体）ユーティリティ。
+- [drizzle-factory](https://github.com/praha-inc/drizzle-factory)
+  - Drizzle ORM用のデータベースレコードファクトリ。
+- [error-factory](https://github.com/praha-inc/error-factory)
+  - カスタムエラーを簡単に作成できるユーティリティ。
 - [GitHub Actionsでブランチ名を制限する系のカスタムアクションいろいろ](https://zenn.dev/praha/articles/11acc8f530078a)
 
 その他にもCTO室では、社内の技術的課題解決や技術的意思決定を行なっています。
