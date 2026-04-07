@@ -27,7 +27,12 @@ export default {
   'business-overview': '事業内容',
   'benefits': '福利厚生',
   'hr-evaluation': '人事評価',
-  'pracracy-manual': 'プラクラシー',
+  // 2026/04/07: プラクラシーは一旦非公開
+  // 内容を見直して再公開する場合はdisplay: 'hidden'を削除してください
+  'pracracy-manual': {
+    title: 'プラクラシー',
+    display: 'hidden',
+  },
   'employee-interview': '社員インタビュー',
   'numbers': '数字で見るPrAha',
   'recruitment-section': {
