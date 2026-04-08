@@ -10,7 +10,7 @@ runs:
         node-version-file: .nvmrc
 
     - name: Setup pnpm
-      uses: pnpm/action-setup@fc06bc1257f339d1d5d8b3a19a8cae5388b55320 # v4.4.0
+      uses: pnpm/action-setup@fc06bc1257f339d1d5d8b3a19a8cae5388b55320 # v5.0.0
 
     - name: Expose pnpm store path
       id: pnpm_store_path
