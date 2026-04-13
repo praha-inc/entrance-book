@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@next/third-parties':
-        specifier: 15.5.14
-        version: 15.5.14(next@15.5.15(@babel/core@7.29.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react@19.2.4)
+        specifier: 15.5.15
+        version: 15.5.15(next@15.5.15(@babel/core@7.29.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react@19.2.4)
       next:
         specifier: 15.5.15
         version: 15.5.15(@babel/core@7.29.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
@@ -673,8 +673,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@next/third-parties@15.5.14':
-    resolution: {integrity: sha512-fNCcA9zYZ/i4zxW0CdtINLvc+AhVJLXJhwobtEe+kOkaeNA+Hpw5SYLmRp/s9cqFm32sjebeP+ma8L8IwC22Ow==}
+  '@next/third-parties@15.5.15':
+    resolution: {integrity: sha512-cJHwCiknzZpz8g5EmDsN6wGrWGpqvOZCQKiGuwsP3Tg4c6UvDPOASeuMk8Bh6ZU1KtUWkvo6+og/7Fk8cMg7Qg==}
     peerDependencies:
       next: ^13.0.0 || ^14.0.0 || ^15.0.0
       react: ^18.2.0 || 19.0.0-rc-de68d2f4-20241204 || ^19.0.0
@@ -5156,7 +5156,7 @@ snapshots:
   '@next/swc-win32-x64-msvc@15.5.15':
     optional: true
 
-  '@next/third-parties@15.5.14(next@15.5.15(@babel/core@7.29.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react@19.2.4)':
+  '@next/third-parties@15.5.15(next@15.5.15(@babel/core@7.29.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4))(react@19.2.4)':
     dependencies:
       next: 15.5.15(@babel/core@7.29.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       react: 19.2.4
