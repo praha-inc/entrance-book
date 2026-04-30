@@ -1,15 +1,15 @@
 {
-  "name": "praha-inc-about-us",
+  "name": "praha-inc-entrance-book",
   "version": "1.0.0",
   "private": true,
-  "description": "About PrAha, Inc.",
-  "homepage": "https://github.com/shuding/nextra-docs-template#readme",
+  "description": "PrAha Entrance Book",
+  "homepage": "https://github.com/praha-inc/entrance-book#readme",
   "bugs": {
-    "url": "https://github.com/shuding/nextra-docs-template/issues"
+    "url": "https://github.com/praha-inc/entrance-book/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/praha-inc/about-us.git"
+    "url": "git+https://github.com/praha-inc/entrance-book.git"
   },
   "license": "UNLICENSED",
   "scripts": {

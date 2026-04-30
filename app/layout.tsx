@@ -42,7 +42,7 @@ const RootLayout: FC<PropsWithChildren> = async ({ children }) => {
             <Navbar logo={<b>PrAha Entrance Book</b>} projectLink="https://github.com/praha-inc/entrance-book" />
           )}
           pageMap={await getPageMap()}
-          docsRepositoryBase="https://github.com/praha-inc/about-us/tree/main"
+          docsRepositoryBase="https://github.com/praha-inc/entrance-book/tree/main"
           editLink="GitHubでこのページの修正を提案する"
           sidebar={{ defaultMenuCollapseLevel: 1 }}
           feedback={{ content: null }}
