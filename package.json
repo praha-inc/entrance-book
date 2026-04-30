@@ -30,7 +30,6 @@
     "react": "19.2.5",
     "react-dom": "19.2.5",
     "recharts": "3.8.1",
-    "remark-emoji": "5.0.2",
     "textlint": "15.6.0",
     "textlint-rule-preset-smarthr": "1.37.0"
   },
