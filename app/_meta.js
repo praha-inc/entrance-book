@@ -1,4 +1,4 @@
-export default {
+const meta = {
   '*': {
     theme: {
       breadcrumb: false,
@@ -47,3 +47,5 @@ export default {
     display: 'hidden',
   },
 };
+
+export default meta;
