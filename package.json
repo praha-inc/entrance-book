@@ -42,6 +42,7 @@
     "@types/node": "24.12.2",
     "@types/react": "19.2.14",
     "oxlint": "1.62.0",
+    "oxlint-tsgolint": "0.22.1",
     "pagefind": "1.5.2",
     "typescript": "6.0.3"
   },
