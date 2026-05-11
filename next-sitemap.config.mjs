@@ -1,7 +1,9 @@
 /** @type {import('next-sitemap').IConfig} */
-export default {
+const config = {
   siteUrl: 'https://entrance.praha-inc.com/',
   generateRobotsTxt: true,
   generateIndexSitemap: false,
   outDir: './out',
 };
+
+export default config;
