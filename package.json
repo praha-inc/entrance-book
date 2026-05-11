@@ -39,7 +39,7 @@
     "@praha/oxlint-config-standard": "1.0.0-beta.5",
     "@tsconfig/next": "2.0.6",
     "@tsconfig/strictest": "2.0.8",
-    "@types/node": "24.12.2",
+    "@types/node": "24.12.3",
     "@types/react": "19.2.14",
     "oxlint": "1.62.0",
     "oxlint-tsgolint": "0.22.1",
