@@ -32,7 +32,7 @@
     "react-dom": "19.2.5",
     "recharts": "3.8.1",
     "textlint": "15.6.0",
-    "textlint-rule-preset-smarthr": "1.37.0"
+    "textlint-rule-preset-smarthr": "1.37.1"
   },
   "devDependencies": {
     "@praha/oxlint-config-react": "1.0.0-beta.5",
