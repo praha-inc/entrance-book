@@ -41,7 +41,7 @@
     "@tsconfig/strictest": "2.0.8",
     "@types/node": "24.12.3",
     "@types/react": "19.2.14",
-    "oxlint": "1.62.0",
+    "oxlint": "1.63.0",
     "oxlint-tsgolint": "0.22.1",
     "pagefind": "1.5.2",
     "typescript": "6.0.3"
