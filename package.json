@@ -40,7 +40,7 @@
     "@tsconfig/next": "2.0.6",
     "@tsconfig/strictest": "2.0.8",
     "@types/node": "24.12.4",
-    "@types/react": "19.2.14",
+    "@types/react": "19.2.15",
     "oxlint": "1.65.0",
     "oxlint-tsgolint": "0.23.0",
     "pagefind": "1.5.2",
