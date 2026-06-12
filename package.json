@@ -36,7 +36,7 @@
   },
   "devDependencies": {
     "@praha/oxlint-config-react": "1.0.0-beta.7",
-    "@praha/oxlint-config-standard": "1.0.0-beta.6",
+    "@praha/oxlint-config-standard": "1.0.0-beta.7",
     "@tsconfig/next": "2.0.6",
     "@tsconfig/strictest": "2.0.8",
     "@types/node": "24.13.1",
