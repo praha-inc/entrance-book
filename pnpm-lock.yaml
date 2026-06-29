@@ -36,8 +36,8 @@ importers:
         specifier: 15.7.1
         version: 15.7.1
       textlint-rule-preset-smarthr:
-        specifier: 1.37.4
-        version: 1.37.4
+        specifier: 1.37.5
+        version: 1.37.5
     devDependencies:
       '@praha/oxlint-config-react':
         specifier: 1.0.0-beta.7
@@ -4296,8 +4296,8 @@ packages:
   textlint-rule-no-nfd@2.0.2:
     resolution: {integrity: sha512-lIUvcQ+wqtConpPQU2YwEJl2dRcRyyrxPYZ3V76UwnkVg++XPLIrE5mLDgyNE/UIQ34e/KitJfMLqKWvnkFbNQ==}
 
-  textlint-rule-preset-smarthr@1.37.4:
-    resolution: {integrity: sha512-2DZPMGa+y/3++6JU0YobQLyDhsCE5r8Y4XbX09V+TFSWryzrA3yEPXyPP5GwYgBsQj6UTO/yzLTc9Itc1WHNag==}
+  textlint-rule-preset-smarthr@1.37.5:
+    resolution: {integrity: sha512-7vf13Fn8NTbduNeV27Kq6LiNApMEaryy8Na8tfV1ESNg/tnCLIzUvoO43HoRNFLw1dGa6vAhrmHAfTi1318Pog==}
     engines: {pnpm: '=10.16.1'}
 
   textlint-rule-prh@5.3.0:
@@ -9805,7 +9805,7 @@ snapshots:
       match-index: 1.0.3
       textlint-rule-helper: 2.5.0
 
-  textlint-rule-preset-smarthr@1.37.4:
+  textlint-rule-preset-smarthr@1.37.5:
     dependencies:
       '@textlint-rule/textlint-rule-no-unmatched-pair': 2.0.4
       '@textlint-rule/textlint-rule-pattern': 2.0.2
