@@ -15,7 +15,7 @@ const readClientId = () => {
 
 export const GoogleFormClientIdPrefill: FC = () => {
   useEffect(() => {
-    const handleClick = (event: MouseEvent) => {
+    const handlePrefill = (event: Event) => {
       const target = event.target;
       if (!(target instanceof Element)) return;
 
@@ -31,8 +31,13 @@ export const GoogleFormClientIdPrefill: FC = () => {
       anchor.href = url.toString();
     };
 
-    document.addEventListener('click', handleClick, true);
-    return () => document.removeEventListener('click', handleClick, true);
+    // clickは左クリックしか捕捉できないため、中クリックやCtrl+クリックにも対応できるようpointerdownでも書き換える
+    document.addEventListener('pointerdown', handlePrefill, true);
+    document.addEventListener('click', handlePrefill, true);
+    return () => {
+      document.removeEventListener('pointerdown', handlePrefill, true);
+      document.removeEventListener('click', handlePrefill, true);
+    };
   }, []);
 
   return null;
