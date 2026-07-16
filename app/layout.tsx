@@ -3,6 +3,8 @@ import { Head } from 'nextra/components';
 import { getPageMap } from 'nextra/page-map';
 import { Footer, Layout, Navbar } from 'nextra-theme-docs';
 
+import { GoogleFormClientIdPrefill } from './components/google-form-client-id-prefill';
+
 import type { Metadata } from 'next';
 import type { FC, PropsWithChildren } from 'react';
 
@@ -37,6 +39,7 @@ const RootLayout: FC<PropsWithChildren> = async ({ children }) => {
         <GoogleTagManager gtmId="GTM-M5B86HFP" />
       </Head>
       <body>
+        <GoogleFormClientIdPrefill />
         <Layout
           navbar={(
             <Navbar logo={<b>PrAha Entrance Book</b>} projectLink="https://github.com/praha-inc/entrance-book" />
