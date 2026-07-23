@@ -44,7 +44,7 @@
     "oxlint": "1.74.0",
     "oxlint-tsgolint": "0.25.0",
     "pagefind": "1.5.2",
-    "typescript": "6.0.3"
+    "typescript": "7.0.2"
   },
   "packageManager": "pnpm@11.15.1"
 }
