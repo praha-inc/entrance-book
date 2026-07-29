@@ -30,7 +30,7 @@
     "nextra-theme-docs": "4.6.1",
     "react": "19.2.8",
     "react-dom": "19.2.8",
-    "recharts": "3.10.0",
+    "recharts": "3.10.1",
     "textlint": "15.7.1",
     "textlint-rule-preset-smarthr": "1.37.5"
   },
