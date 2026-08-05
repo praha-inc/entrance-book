@@ -31,7 +31,7 @@
     "react": "19.2.8",
     "react-dom": "19.2.8",
     "recharts": "3.10.1",
-    "textlint": "15.7.1",
+    "textlint": "15.8.0",
     "textlint-rule-preset-smarthr": "1.37.5"
   },
   "devDependencies": {
@@ -42,7 +42,7 @@
     "@types/node": "24.13.3",
     "@types/react": "19.2.18",
     "oxlint": "1.76.0",
-    "oxlint-tsgolint": "0.25.0",
+    "oxlint-tsgolint": "7.0.2001",
     "pagefind": "1.5.2",
     "typescript": "6.0.3"
   },
