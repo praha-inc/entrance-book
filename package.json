@@ -17,7 +17,7 @@
     "dev": "next dev",
     "build": "next build",
     "postinstall": "fumadocs-mdx",
-    "postbuild": "next-sitemap --config next-sitemap.config.mjs && pagefind --site .next/server/app --output-path out/_pagefind",
+    "postbuild": "next-sitemap --config next-sitemap.config.mjs && pagefind --site out --output-path out/_pagefind",
     "start": "next start",
     "lint:code": "oxlint --max-warnings=0",
     "lint:text": "textlint *.md **/*.md",
