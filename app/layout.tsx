@@ -1,14 +1,13 @@
 import { GoogleTagManager } from '@next/third-parties/google';
-import { Head } from 'nextra/components';
-import { getPageMap } from 'nextra/page-map';
-import { Footer, Layout, Navbar } from 'nextra-theme-docs';
+import { RootProvider } from 'fumadocs-ui/provider/next';
 
+import { PagefindSearchDialog } from '../components/pagefind-search-dialog';
 import { GoogleFormClientIdPrefill } from './components/google-form-client-id-prefill';
 
 import type { Metadata } from 'next';
 import type { FC, PropsWithChildren } from 'react';
 
-import 'nextra-theme-docs/style.css';
+import './global.css';
 
 const companyImage = 'https://storage.googleapis.com/production-os-assets/assets/3e2414da-29eb-4a09-a665-b35ce4ecb451';
 
@@ -29,34 +28,18 @@ export const metadata: Metadata = {
   },
 };
 
-const RootLayout: FC<PropsWithChildren> = async ({ children }) => {
+const RootLayout: FC<PropsWithChildren> = ({ children }) => {
   return (
     <html
       lang="ja"
       suppressHydrationWarning
     >
-      <Head>
-        <GoogleTagManager gtmId="GTM-M5B86HFP" />
-      </Head>
-      <body>
+      <GoogleTagManager gtmId="GTM-M5B86HFP" />
+      <body className="flex min-h-screen flex-col">
         <GoogleFormClientIdPrefill />
-        <Layout
-          navbar={(
-            <Navbar logo={<b>PrAha Entrance Book</b>} projectLink="https://github.com/praha-inc/entrance-book" />
-          )}
-          pageMap={await getPageMap()}
-          docsRepositoryBase="https://github.com/praha-inc/entrance-book/tree/main"
-          editLink="GitHubでこのページの修正を提案する"
-          sidebar={{ defaultMenuCollapseLevel: 1 }}
-          feedback={{ content: null }}
-          footer={(
-            <Footer>
-              ©{new Date().getFullYear()} PrAha Inc. All Rights Reserved
-            </Footer>
-          )}
-        >
+        <RootProvider search={{ SearchDialog: PagefindSearchDialog }}>
           {children}
-        </Layout>
+        </RootProvider>
       </body>
     </html>
   );

@@ -1,0 +1,86 @@
+@import 'tailwindcss';
+@import 'fumadocs-ui/css/neutral.css';
+@import 'fumadocs-ui/css/preset.css';
+
+@source '../node_modules/fumadocs-ui/dist/**/*.js';
+
+/* 旧サイト(nextra-theme-docs)の見た目に寄せるための調整 */
+:root {
+  --color-fd-primary: hsl(212, 100%, 45%);
+}
+
+/* ライトはFumadocs標準の薄灰(96%)ではなく旧サイトと同じ純白にする
+   (:rootに書くと.darkと同詳細度で後勝ちしダークまで白くなるため、ライト限定にする) */
+:root:not(.dark) {
+  --color-fd-background: hsl(0, 0%, 100%);
+  --color-fd-popover: hsl(0, 0%, 100%);
+  --color-fd-card: hsl(0, 0%, 100%);
+}
+
+.dark {
+  --color-fd-primary: hsl(204, 100%, 64%);
+}
+
+/* 見出しサイズと太字を旧サイトに合わせる(Fumadocs標準は一回り小さい) */
+#nd-page h1 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 1.15;
+}
+
+.prose h2 {
+  font-size: 1.875rem;
+  line-height: 1.2;
+  margin-top: 2.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.prose h3 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 1.25rem;
+}
+
+.prose h4 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  margin-top: 2rem;
+  margin-bottom: 1.25rem;
+}
+
+.prose strong {
+  font-weight: 700;
+}
+
+.prose li {
+  line-height: 1.5rem;
+}
+
+/* 文字色も旧サイト(gray-900/gray-700系)に合わせる(ライトのみ、ダークは標準のまま) */
+:root:not(.dark) .prose {
+  color: rgb(55, 65, 81);
+}
+
+:root:not(.dark) #nd-page h1,
+:root:not(.dark) .prose :is(h1, h2, h3, h4) {
+  color: rgb(17, 24, 39);
+}
+
+/* Nextraのh2は下線ボーダー付き */
+.prose h2 {
+  border-bottom: 1px solid var(--color-fd-border);
+  padding-bottom: 0.3rem;
+}
+
+/* 本文中のリンクは旧サイトと同じ青 */
+.prose p a,
+.prose li a {
+  color: var(--color-fd-primary);
+}
+
+/* 本文を常に中央寄せにする(旧サイトと同じく、サイドバーを閉じても本文位置を保つ) */
+#nd-page > * {
+  width: 100%;
+  margin-inline: auto;
+}
