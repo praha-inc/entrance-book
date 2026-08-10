@@ -44,6 +44,7 @@
     "oxlint": "1.77.0",
     "oxlint-tsgolint": "7.0.2001",
     "pagefind": "1.5.2",
+    "textlint-filter-rule-allowlist": "^4.0.0",
     "textlint-plugin-mdx": "^1.1.0",
     "typescript": "6.0.3"
   },
