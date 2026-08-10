@@ -1,6 +1,6 @@
-import nextra from 'nextra';
+import { createMDX } from 'fumadocs-mdx/next';
 
-const withNextra = nextra({});
+const withMDX = createMDX();
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
@@ -8,11 +8,6 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  turbopack: {
-    resolveAlias: {
-      'next-mdx-import-source-file': './mdx-components.tsx',
-    },
-  },
 };
 
-export default withNextra(nextConfig);
+export default withMDX(nextConfig);

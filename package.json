@@ -16,6 +16,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "postinstall": "fumadocs-mdx",
     "postbuild": "next-sitemap --config next-sitemap.config.mjs && pagefind --site .next/server/app --output-path out/_pagefind",
     "start": "next start",
     "lint:code": "oxlint --max-warnings=0",
@@ -24,10 +25,11 @@
   },
   "dependencies": {
     "@next/third-parties": "16.3.0",
+    "fumadocs-core": "^16.14.2",
+    "fumadocs-mdx": "^15.2.2",
+    "fumadocs-ui": "^16.14.2",
     "next": "16.3.0",
     "next-sitemap": "4.2.3",
-    "nextra": "4.6.1",
-    "nextra-theme-docs": "4.6.1",
     "react": "19.2.8",
     "react-dom": "19.2.8",
     "recharts": "3.10.1",
@@ -37,13 +39,17 @@
   "devDependencies": {
     "@praha/oxlint-config-react": "1.0.0-beta.7",
     "@praha/oxlint-config-standard": "1.0.0-beta.7",
+    "@tailwindcss/postcss": "^4.3.3",
     "@tsconfig/next": "2.0.6",
     "@tsconfig/strictest": "2.0.8",
+    "@types/mdx": "^2.0.14",
     "@types/node": "24.13.3",
     "@types/react": "19.2.18",
     "oxlint": "1.77.0",
     "oxlint-tsgolint": "7.0.2001",
     "pagefind": "1.5.2",
+    "postcss": "^8.5.26",
+    "tailwindcss": "^4.3.3",
     "typescript": "6.0.3"
   },
   "packageManager": "pnpm@11.20.0"
