@@ -19,7 +19,7 @@
     "postbuild": "next-sitemap --config next-sitemap.config.mjs && pagefind --site .next/server/app --output-path out/_pagefind",
     "start": "next start",
     "lint:code": "oxlint --max-warnings=0",
-    "lint:text": "textlint *.md **/*.md",
+    "lint:text": "textlint \"**/*.{md,mdx}\"",
     "lint:type": "tsc --noEmit --pretty"
   },
   "dependencies": {
