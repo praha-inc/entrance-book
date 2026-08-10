@@ -1,4 +1,9 @@
 {
+  "plugins": {
+    "@textlint/markdown": {
+      "extensions": [".mdx"]
+    }
+  },
   "rules": {
     "preset-smarthr": {
       "sentence-length": false
