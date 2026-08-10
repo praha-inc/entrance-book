@@ -1,0 +1,2 @@
+# JSX(SalaryChart)のコードがmarkdownの文として誤検出されるため除外
+content/docs/numbers.mdx

@@ -4,6 +4,14 @@
       "extensions": [".mdx"]
     }
   },
+  "filters": {
+    "allowlist": {
+      "allow": [
+        "スクラムマスター",
+        "？（"
+      ]
+    }
+  },
   "rules": {
     "preset-smarthr": {
       "sentence-length": false

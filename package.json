@@ -20,7 +20,7 @@
     "postbuild": "next-sitemap --config next-sitemap.config.mjs && pagefind --site out --output-path out/_pagefind",
     "start": "next start",
     "lint:code": "oxlint --max-warnings=0",
-    "lint:text": "textlint *.md **/*.md",
+    "lint:text": "textlint \"*.md\" \"content/docs/**/*.{md,mdx}\"",
     "lint:type": "tsc --noEmit --pretty"
   },
   "dependencies": {
@@ -50,6 +50,7 @@
     "pagefind": "1.5.2",
     "postcss": "^8.5.26",
     "tailwindcss": "^4.3.3",
+    "textlint-filter-rule-allowlist": "^4.0.0",
     "typescript": "6.0.3"
   },
   "packageManager": "pnpm@11.20.0"
