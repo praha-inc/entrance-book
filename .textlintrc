@@ -1,4 +1,7 @@
 {
+  "plugins": {
+    "mdx": true
+  },
   "rules": {
     "preset-smarthr": {
       "sentence-length": false
