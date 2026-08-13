@@ -1,4 +1,15 @@
 {
+  "plugins": {
+    "mdx": true
+  },
+  "filters": {
+    "allowlist": {
+      "allow": [
+        "スクラムマスター",
+        "？（"
+      ]
+    }
+  },
   "rules": {
     "preset-smarthr": {
       "sentence-length": false
