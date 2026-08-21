@@ -40,8 +40,8 @@ importers:
         version: 1.38.0(supports-color@7.2.0)
     devDependencies:
       '@praha/oxlint-config-react':
-        specifier: 1.0.0-beta.7
-        version: 1.0.0-beta.7(eslint@9.39.4(supports-color@7.2.0))(oxlint-tsgolint@7.0.2001)(oxlint@1.78.0(oxlint-tsgolint@7.0.2001))(storybook@10.3.6(@testing-library/dom@10.4.1)(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(supports-color@7.2.0)(typescript@6.0.3)
+        specifier: 1.0.0
+        version: 1.0.0(eslint@9.39.4(supports-color@7.2.0))(oxlint-tsgolint@7.0.2001)(oxlint@1.78.0(oxlint-tsgolint@7.0.2001))(storybook@10.3.6(@testing-library/dom@10.4.1)(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(supports-color@7.2.0)(typescript@6.0.3)
       '@praha/oxlint-config-standard':
         specifier: 1.0.0
         version: 1.0.0(@praha/byethrow@0.12.0(typescript@6.0.3))(@typescript-eslint/utils@8.59.0(eslint@9.39.4(supports-color@7.2.0))(supports-color@7.2.0)(typescript@6.0.3))(eslint@9.39.4(supports-color@7.2.0))(oxlint-tsgolint@7.0.2001)(oxlint@1.78.0(oxlint-tsgolint@7.0.2001))(supports-color@7.2.0)
@@ -1001,14 +1001,8 @@ packages:
       oxlint: ^1.0.0
       oxlint-tsgolint: '>=0.20.0'
 
-  '@praha/oxlint-config-internal@1.0.0-beta.7':
-    resolution: {integrity: sha512-qjjAldizWDSRcxdawA9zlpQpOXBraJK65HDtdpBdowgppRE9wgxQoOGYWFX46HKI4hyglf2RqMioP8GeRf6+Vw==}
-    peerDependencies:
-      oxlint: ^1.0.0
-      oxlint-tsgolint: '>=0.20.0'
-
-  '@praha/oxlint-config-react@1.0.0-beta.7':
-    resolution: {integrity: sha512-qtoNKLv4TlQanje5/zwRI34rHbZVr+Gc5hT5QtbzjpnAnOkV6o9lImhkWvgqM25hkdDWNojEbVnjezjWkTmHFw==}
+  '@praha/oxlint-config-react@1.0.0':
+    resolution: {integrity: sha512-RT7hCJDBut5DVbWnlCdsncPXZlauQNK1Rzy+NobRJYy/AENjOfEv91f3NxEzQJrwZcXqUelzVF5KxUoKKFl+hg==}
     peerDependencies:
       oxlint: ^1.0.0
       oxlint-tsgolint: '>=0.20.0'
@@ -2283,6 +2277,7 @@ packages:
   eslint@9.39.4:
     resolution: {integrity: sha512-XoMjdBOwe/esVgEvLmNsD3IRHkm7fbKIUGvrleloJXUZgDHig2IPWNniv+GwjyJXzuNqVjlr5+4yVUZjycJwfQ==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
+    deprecated: This version is no longer supported. Please see https://eslint.org/version-support for other options.
     hasBin: true
     peerDependencies:
       jiti: '*'
@@ -5199,14 +5194,9 @@ snapshots:
       oxlint: 1.78.0(oxlint-tsgolint@7.0.2001)
       oxlint-tsgolint: 7.0.2001
 
-  '@praha/oxlint-config-internal@1.0.0-beta.7(oxlint-tsgolint@7.0.2001)(oxlint@1.78.0(oxlint-tsgolint@7.0.2001))':
+  '@praha/oxlint-config-react@1.0.0(eslint@9.39.4(supports-color@7.2.0))(oxlint-tsgolint@7.0.2001)(oxlint@1.78.0(oxlint-tsgolint@7.0.2001))(storybook@10.3.6(@testing-library/dom@10.4.1)(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(supports-color@7.2.0)(typescript@6.0.3)':
     dependencies:
-      oxlint: 1.78.0(oxlint-tsgolint@7.0.2001)
-      oxlint-tsgolint: 7.0.2001
-
-  '@praha/oxlint-config-react@1.0.0-beta.7(eslint@9.39.4(supports-color@7.2.0))(oxlint-tsgolint@7.0.2001)(oxlint@1.78.0(oxlint-tsgolint@7.0.2001))(storybook@10.3.6(@testing-library/dom@10.4.1)(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(supports-color@7.2.0)(typescript@6.0.3)':
-    dependencies:
-      '@praha/oxlint-config-internal': 1.0.0-beta.7(oxlint-tsgolint@7.0.2001)(oxlint@1.78.0(oxlint-tsgolint@7.0.2001))
+      '@praha/oxlint-config-internal': 1.0.0(oxlint-tsgolint@7.0.2001)(oxlint@1.78.0(oxlint-tsgolint@7.0.2001))
       eslint-plugin-storybook: 10.3.6(eslint@9.39.4(supports-color@7.2.0))(storybook@10.3.6(@testing-library/dom@10.4.1)(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(supports-color@7.2.0)(typescript@6.0.3)
       oxlint: 1.78.0(oxlint-tsgolint@7.0.2001)
       oxlint-tsgolint: 7.0.2001
