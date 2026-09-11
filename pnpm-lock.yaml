@@ -36,8 +36,8 @@ importers:
         specifier: 15.8.0
         version: 15.8.0(supports-color@7.2.0)
       textlint-rule-preset-smarthr:
-        specifier: 1.38.0
-        version: 1.38.0(supports-color@7.2.0)
+        specifier: 1.38.1
+        version: 1.38.1(supports-color@7.2.0)
     devDependencies:
       '@praha/oxlint-config-react':
         specifier: 1.0.0-beta.7
@@ -4135,9 +4135,8 @@ packages:
   textlint-rule-no-nfd@2.0.2:
     resolution: {integrity: sha512-lIUvcQ+wqtConpPQU2YwEJl2dRcRyyrxPYZ3V76UwnkVg++XPLIrE5mLDgyNE/UIQ34e/KitJfMLqKWvnkFbNQ==}
 
-  textlint-rule-preset-smarthr@1.38.0:
-    resolution: {integrity: sha512-BKs9eH6hcXK2mt31IxDOb3mumcyEtXxHnkYmFffri6G1SuqL4OyC+rcOYDzaUuQ4FgArx5BfgVp7AZsaGe/WSg==}
-    engines: {pnpm: '=10.16.1'}
+  textlint-rule-preset-smarthr@1.38.1:
+    resolution: {integrity: sha512-DnuDb7cM22AzOFcI5buvIby7fKyb8+0v/jYnZrS/KgSZ54yCOCLbDJnziAzRtb4PhP6z45e1qSqtgQ+wTkCfmg==}
 
   textlint-rule-prh@5.3.0:
     resolution: {integrity: sha512-gdod+lL1SWUDyXs1ICEwvQawaSshT3mvPGufBIjF2R5WFPdKQDMsiuzsjkLm+aF+9d97dA6pFsiyC8gSW7mSgg==}
@@ -9412,7 +9411,7 @@ snapshots:
       match-index: 1.0.3
       textlint-rule-helper: 2.5.0
 
-  textlint-rule-preset-smarthr@1.38.0(supports-color@7.2.0):
+  textlint-rule-preset-smarthr@1.38.1(supports-color@7.2.0):
     dependencies:
       '@textlint-rule/textlint-rule-no-unmatched-pair': 2.0.4
       '@textlint-rule/textlint-rule-pattern': 2.0.2
