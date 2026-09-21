@@ -42,7 +42,7 @@
     "@types/node": "24.13.5",
     "@types/react": "19.3.0",
     "oxlint": "1.83.0",
-    "oxlint-tsgolint": "7.0.2001",
+    "oxlint-tsgolint": "7.0.2002",
     "pagefind": "1.5.2",
     "textlint-filter-rule-allowlist": "4.0.0",
     "textlint-plugin-mdx": "1.1.0",
