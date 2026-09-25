@@ -41,7 +41,7 @@
     "@tsconfig/strictest": "2.0.8",
     "@types/node": "24.13.6",
     "@types/react": "19.3.0",
-    "oxlint": "1.83.0",
+    "oxlint": "1.85.0",
     "oxlint-tsgolint": "7.0.2002",
     "pagefind": "1.5.2",
     "textlint-filter-rule-allowlist": "4.0.0",
