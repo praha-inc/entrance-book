@@ -10,9 +10,10 @@ import {
   LabelList,
 } from 'recharts';
 
+import { CustomAverageLabel, CustomMedianLabel } from './internals';
 import styles from './salary-chart.module.css';
 
-type SalaryData = {
+export type SalaryData = {
   period: string;
   average: number;
   median: number;
@@ -20,42 +21,6 @@ type SalaryData = {
 
 type Props = {
   data: SalaryData[];
-};
-
-const CustomAverageLabel = (
-  props: { x?: string | number | undefined; y?: string | number | undefined; value?: string | number | undefined; index?: number | undefined },
-  data: SalaryData[],
-) => {
-  const { x, y, value, index } = props;
-  if (typeof x !== 'number' || typeof y !== 'number' || value === undefined || index === undefined) return null;
-
-  const item = data[index];
-  if (!item) return null;
-  const offset = item.average >= item.median ? -22 : 22;
-
-  return (
-    <text x={x} y={y + offset} fill="var(--chart-primary-label)" fontSize={11} fontWeight={600} textAnchor="middle">
-      {value}
-    </text>
-  );
-};
-
-const CustomMedianLabel = (
-  props: { x?: string | number | undefined; y?: string | number | undefined; value?: string | number | undefined; index?: number | undefined },
-  data: SalaryData[],
-) => {
-  const { x, y, value, index } = props;
-  if (typeof x !== 'number' || typeof y !== 'number' || value === undefined || index === undefined) return null;
-
-  const item = data[index];
-  if (!item) return null;
-  const offset = item.median > item.average ? -22 : 22;
-
-  return (
-    <text x={x} y={y + offset} fill="var(--chart-secondary-label)" fontSize={11} fontWeight={600} textAnchor="middle">
-      {value}
-    </text>
-  );
 };
 
 export const SalaryChart = ({ data }: Props) => (
@@ -113,7 +78,7 @@ export const SalaryChart = ({ data }: Props) => (
           dot={{ r: 5, fill: 'var(--chart-dot-fill)', stroke: 'var(--chart-primary)', strokeWidth: 2 }}
           activeDot={{ r: 8, fill: 'var(--chart-primary)', stroke: 'var(--chart-dot-fill)', strokeWidth: 3, filter: 'url(#glow)' }}
         >
-          <LabelList dataKey="average" content={(props) => CustomAverageLabel(props as { x?: string | number | undefined; y?: string | number | undefined; value?: string | number | undefined; index?: number | undefined }, data)} />
+          <LabelList dataKey="average" content={<CustomAverageLabel data={data} />} />
         </Line>
         <Line
           type="monotone"
@@ -124,7 +89,7 @@ export const SalaryChart = ({ data }: Props) => (
           dot={{ r: 5, fill: 'var(--chart-dot-fill)', stroke: 'var(--chart-secondary)', strokeWidth: 2 }}
           activeDot={{ r: 8, fill: 'var(--chart-secondary)', stroke: 'var(--chart-dot-fill)', strokeWidth: 3, filter: 'url(#glow)' }}
         >
-          <LabelList dataKey="median" content={(props) => CustomMedianLabel(props as { x?: string | number | undefined; y?: string | number | undefined; value?: string | number | undefined; index?: number | undefined }, data)} />
+          <LabelList dataKey="median" content={<CustomMedianLabel data={data} />} />
         </Line>
       </LineChart>
     </ResponsiveContainer>

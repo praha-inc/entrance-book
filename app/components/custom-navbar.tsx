@@ -1,8 +1,7 @@
 'use client';
 
+import { Navbar } from 'nextra-theme-docs';
 import { useEffect } from 'react';
-
-import type { FC } from 'react';
 
 const GOOGLE_FORM_URL = 'docs.google.com/forms/d/1whmNgig8TKm8qTvAAYm5xjYE';
 const ENTRY_KEY = 'entry.883602885';
@@ -13,7 +12,9 @@ const readClientId = () => {
   return match?.[1] || '';
 };
 
-export const GoogleFormClientIdPrefill: FC = () => {
+export const CustomNavbar = () => {
+  // NextraのナビゲーションとMDX本文の応募リンクをまとめて扱うため、documentへイベントを委譲する。
+  // ブラウザでのみイベントを登録し、アンマウント時に解除するためuseEffectで管理する。
   useEffect(() => {
     const handlePrefill = (event: Event) => {
       const target = event.target;
@@ -22,6 +23,7 @@ export const GoogleFormClientIdPrefill: FC = () => {
       const anchor = target.closest('a');
       if (!anchor || !anchor.href.includes(GOOGLE_FORM_URL)) return;
 
+      // GAのCookieはページ表示後に作られる場合があるため、リンクを操作した時点で取得する。
       const clientId = readClientId();
       if (!clientId) return;
 
@@ -31,7 +33,8 @@ export const GoogleFormClientIdPrefill: FC = () => {
       anchor.href = url.toString();
     };
 
-    // clickは左クリックしか捕捉できないため、中クリックやCtrl+クリックにも対応できるようpointerdownでも書き換える
+    // 中クリックでも遷移前にURLを更新するためpointerdownを使い、キーボード操作はclickで補う。
+    // リンク側のイベント処理より先に書き換えるため、キャプチャーフェーズで受け取る。
     document.addEventListener('pointerdown', handlePrefill, true);
     document.addEventListener('click', handlePrefill, true);
     return () => {
@@ -40,5 +43,5 @@ export const GoogleFormClientIdPrefill: FC = () => {
     };
   }, []);
 
-  return null;
+  return <Navbar logo={<b>PrAha Entrance Book</b>} projectLink="https://github.com/praha-inc/entrance-book" />;
 };

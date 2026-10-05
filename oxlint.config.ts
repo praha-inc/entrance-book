@@ -7,4 +7,13 @@ export default defineConfig({
     standard(),
     react(),
   ],
+  overrides: [
+    {
+      // Nextra公式の.tsxを維持するため、このファイルだけ拡張子チェックを除外する。
+      files: ['mdx-components.tsx'],
+      rules: {
+        'react/jsx-filename-extension': 'off',
+      },
+    },
+  ],
 });

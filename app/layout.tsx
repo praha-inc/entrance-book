@@ -1,14 +1,16 @@
 import { GoogleTagManager } from '@next/third-parties/google';
 import { Head } from 'nextra/components';
 import { getPageMap } from 'nextra/page-map';
-import { Footer, Layout, Navbar } from 'nextra-theme-docs';
+import { Footer, Layout } from 'nextra-theme-docs';
 
-import { GoogleFormClientIdPrefill } from './components/google-form-client-id-prefill';
+import { CustomNavbar } from './components/custom-navbar';
 
 import type { Metadata } from 'next';
 import type { FC, PropsWithChildren } from 'react';
 
 import 'nextra-theme-docs/style.css';
+
+const copyrightYear = new Date().getFullYear();
 
 const companyImage = 'https://storage.googleapis.com/production-os-assets/assets/3e2414da-29eb-4a09-a665-b35ce4ecb451';
 
@@ -39,11 +41,8 @@ const RootLayout: FC<PropsWithChildren> = async ({ children }) => {
         <GoogleTagManager gtmId="GTM-M5B86HFP" />
       </Head>
       <body>
-        <GoogleFormClientIdPrefill />
         <Layout
-          navbar={(
-            <Navbar logo={<b>PrAha Entrance Book</b>} projectLink="https://github.com/praha-inc/entrance-book" />
-          )}
+          navbar={<CustomNavbar />}
           pageMap={await getPageMap()}
           docsRepositoryBase="https://github.com/praha-inc/entrance-book/tree/main"
           editLink="GitHubでこのページの修正を提案する"
@@ -51,7 +50,7 @@ const RootLayout: FC<PropsWithChildren> = async ({ children }) => {
           feedback={{ content: null }}
           footer={(
             <Footer>
-              ©{new Date().getFullYear()} PrAha Inc. All Rights Reserved
+              ©{copyrightYear} PrAha Inc. All Rights Reserved
             </Footer>
           )}
         >
