@@ -1,10 +1,14 @@
 import type { SalaryData } from '../salary-chart';
+import type { ReactElement } from 'react';
+import type { LabelProps } from 'recharts';
 
-export const CustomAverageLabel = (
-  props: { x?: string | number | undefined; y?: string | number | undefined; value?: string | number | undefined; index?: number | undefined },
-  data: SalaryData[],
-) => {
-  const { x, y, value, index } = props;
+export type CustomAverageLabel = (
+  props: LabelProps & { data: SalaryData[] },
+) => ReactElement | null;
+
+export const CustomAverageLabel: CustomAverageLabel = ({
+  x, y, value, index, data,
+}) => {
   if (typeof x !== 'number' || typeof y !== 'number' || value === undefined || index === undefined) return null;
 
   const item = data[index];

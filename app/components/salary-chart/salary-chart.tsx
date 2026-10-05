@@ -78,7 +78,7 @@ export const SalaryChart = ({ data }: Props) => (
           dot={{ r: 5, fill: 'var(--chart-dot-fill)', stroke: 'var(--chart-primary)', strokeWidth: 2 }}
           activeDot={{ r: 8, fill: 'var(--chart-primary)', stroke: 'var(--chart-dot-fill)', strokeWidth: 3, filter: 'url(#glow)' }}
         >
-          <LabelList dataKey="average" content={(props) => CustomAverageLabel(props as { x?: string | number | undefined; y?: string | number | undefined; value?: string | number | undefined; index?: number | undefined }, data)} />
+          <LabelList dataKey="average" content={<CustomAverageLabel data={data} />} />
         </Line>
         <Line
           type="monotone"
@@ -89,7 +89,7 @@ export const SalaryChart = ({ data }: Props) => (
           dot={{ r: 5, fill: 'var(--chart-dot-fill)', stroke: 'var(--chart-secondary)', strokeWidth: 2 }}
           activeDot={{ r: 8, fill: 'var(--chart-secondary)', stroke: 'var(--chart-dot-fill)', strokeWidth: 3, filter: 'url(#glow)' }}
         >
-          <LabelList dataKey="median" content={(props) => CustomMedianLabel(props as { x?: string | number | undefined; y?: string | number | undefined; value?: string | number | undefined; index?: number | undefined }, data)} />
+          <LabelList dataKey="median" content={<CustomMedianLabel data={data} />} />
         </Line>
       </LineChart>
     </ResponsiveContainer>
