@@ -194,8 +194,8 @@ importers:
         specifier: 15.8.0
         version: 15.8.0(supports-color@7.2.0)
       textlint-rule-preset-smarthr:
-        specifier: 1.38.1
-        version: 1.38.1(supports-color@7.2.0)
+        specifier: 1.38.2
+        version: 1.38.2(supports-color@7.2.0)
     devDependencies:
       '@praha/oxlint-config-react':
         specifier: 1.0.2
@@ -3012,6 +3012,10 @@ packages:
     resolution: {integrity: sha512-CY6crGq313MX8GkwvB7tzgp99vjQxY1++5y10/BKN/GUfHqWaOGQMNZkBvqSzsZKWk/ijwHlWzzkLulsGHhjWQ==}
     hasBin: true
 
+  js-yaml@4.3.2:
+    resolution: {integrity: sha512-SFNOvSJ+Dgf/9An904Yx+CgSlIPCkIpao4qo51lpee25TIRejdH3rhR4EZMGoNx3/TP3O+wzWuiTFl4sqbltzA==}
+    hasBin: true
+
   jsesc@3.1.0:
     resolution: {integrity: sha512-/sM3dO2FOzXjKQhJuo0Q173wf2KOo8t4I8vHy6lF9poUp7bKT0/NHE8fPX23PwfhnykfqnC2xRxOnVw5XuGIaA==}
     engines: {node: '>=6'}
@@ -4287,8 +4291,8 @@ packages:
   textlint-rule-no-nfd@2.0.2:
     resolution: {integrity: sha512-lIUvcQ+wqtConpPQU2YwEJl2dRcRyyrxPYZ3V76UwnkVg++XPLIrE5mLDgyNE/UIQ34e/KitJfMLqKWvnkFbNQ==}
 
-  textlint-rule-preset-smarthr@1.38.1:
-    resolution: {integrity: sha512-DnuDb7cM22AzOFcI5buvIby7fKyb8+0v/jYnZrS/KgSZ54yCOCLbDJnziAzRtb4PhP6z45e1qSqtgQ+wTkCfmg==}
+  textlint-rule-preset-smarthr@1.38.2:
+    resolution: {integrity: sha512-fJ4XAkwv9Z1zWJgit2LNpSf408R/BEz3pq5PwgtQzP3auqzgyy04VYCXx3GtYdLO2wo8TT7GMAbB6MWYt0lP2Q==}
 
   textlint-rule-prh@5.3.0:
     resolution: {integrity: sha512-gdod+lL1SWUDyXs1ICEwvQawaSshT3mvPGufBIjF2R5WFPdKQDMsiuzsjkLm+aF+9d97dA6pFsiyC8gSW7mSgg==}
@@ -7565,6 +7569,10 @@ snapshots:
     dependencies:
       argparse: 2.0.1
 
+  js-yaml@4.3.2:
+    dependencies:
+      argparse: 2.0.1
+
   jsesc@3.1.0: {}
 
   json-buffer@3.0.1: {}
@@ -9558,12 +9566,12 @@ snapshots:
       match-index: 1.0.3
       textlint-rule-helper: 2.5.0
 
-  textlint-rule-preset-smarthr@1.38.1(supports-color@7.2.0):
+  textlint-rule-preset-smarthr@1.38.2(supports-color@7.2.0):
     dependencies:
       '@textlint-rule/textlint-rule-no-unmatched-pair': 2.0.4
       '@textlint-rule/textlint-rule-pattern': 2.0.2
       '@textlint/module-interop': 15.8.0
-      js-yaml: 4.3.1
+      js-yaml: 4.3.2
       textlint-rule-ja-hiragana-daimeishi: 1.0.0
       textlint-rule-ja-hiragana-hojodoushi: 1.1.0
       textlint-rule-ja-keishikimeishi: 1.0.5
