@@ -198,8 +198,8 @@ importers:
         version: 1.38.2(supports-color@7.2.0)
     devDependencies:
       '@praha/oxlint-config-react':
-        specifier: 1.0.2
-        version: 1.0.2(eslint@9.39.4(supports-color@7.2.0))(oxlint-tsgolint@7.0.2005)(oxlint@1.89.0(oxlint-tsgolint@7.0.2005))(storybook@10.3.6(@testing-library/dom@10.4.1)(react-dom@19.3.1(react@19.3.1))(react@19.3.1))(supports-color@7.2.0)(typescript@6.0.3)
+        specifier: 1.0.3
+        version: 1.0.3(eslint@9.39.4(supports-color@7.2.0))(oxlint-tsgolint@7.0.2005)(oxlint@1.89.0(oxlint-tsgolint@7.0.2005))(storybook@10.3.6(@testing-library/dom@10.4.1)(react-dom@19.3.1(react@19.3.1))(react@19.3.1))(supports-color@7.2.0)(typescript@6.0.3)
       '@praha/oxlint-config-standard':
         specifier: 1.0.2
         version: 1.0.2(@praha/byethrow@0.12.0(typescript@6.0.3))(@typescript-eslint/utils@8.59.0(eslint@9.39.4(supports-color@7.2.0))(supports-color@7.2.0)(typescript@6.0.3))(eslint@9.39.4(supports-color@7.2.0))(oxlint-tsgolint@7.0.2005)(oxlint@1.89.0(oxlint-tsgolint@7.0.2005))(supports-color@7.2.0)
@@ -1159,8 +1159,14 @@ packages:
       oxlint: ^1.79.0
       oxlint-tsgolint: '>=0.20.0'
 
-  '@praha/oxlint-config-react@1.0.2':
-    resolution: {integrity: sha512-A5naeRBTWLqsCPAQh/TKM/ds0WZ05pbufbn4DysNUESaCPwyD6MxvwMJMmr2mm0z7Wv4Sq4AGlxfEM6WC012Qg==}
+  '@praha/oxlint-config-internal@1.0.3':
+    resolution: {integrity: sha512-IaiM9Y01D09UAwffGn3pj5FpfwHJcP/Ft0FIBZJ2YxmBI1pHVy9KHyoKN5MKvHhI7i/Gisn27Tr0hDp4x7buJg==}
+    peerDependencies:
+      oxlint: ^1.79.0
+      oxlint-tsgolint: '>=0.20.0'
+
+  '@praha/oxlint-config-react@1.0.3':
+    resolution: {integrity: sha512-KJdEETLXw/2CzHjb+AwVBYExGurerowJJ2Wq+OyINgmgIQpoR1V7Nu7UOWajCDkz8jGUMvOQlrN2vCT6HNLIkQ==}
     peerDependencies:
       oxlint: ^1.79.0
       oxlint-tsgolint: '>=0.20.0'
@@ -5352,9 +5358,14 @@ snapshots:
       oxlint: 1.89.0(oxlint-tsgolint@7.0.2005)
       oxlint-tsgolint: 7.0.2005
 
-  '@praha/oxlint-config-react@1.0.2(eslint@9.39.4(supports-color@7.2.0))(oxlint-tsgolint@7.0.2005)(oxlint@1.89.0(oxlint-tsgolint@7.0.2005))(storybook@10.3.6(@testing-library/dom@10.4.1)(react-dom@19.3.1(react@19.3.1))(react@19.3.1))(supports-color@7.2.0)(typescript@6.0.3)':
+  '@praha/oxlint-config-internal@1.0.3(oxlint-tsgolint@7.0.2005)(oxlint@1.89.0(oxlint-tsgolint@7.0.2005))':
     dependencies:
-      '@praha/oxlint-config-internal': 1.0.2(oxlint-tsgolint@7.0.2005)(oxlint@1.89.0(oxlint-tsgolint@7.0.2005))
+      oxlint: 1.89.0(oxlint-tsgolint@7.0.2005)
+      oxlint-tsgolint: 7.0.2005
+
+  '@praha/oxlint-config-react@1.0.3(eslint@9.39.4(supports-color@7.2.0))(oxlint-tsgolint@7.0.2005)(oxlint@1.89.0(oxlint-tsgolint@7.0.2005))(storybook@10.3.6(@testing-library/dom@10.4.1)(react-dom@19.3.1(react@19.3.1))(react@19.3.1))(supports-color@7.2.0)(typescript@6.0.3)':
+    dependencies:
+      '@praha/oxlint-config-internal': 1.0.3(oxlint-tsgolint@7.0.2005)(oxlint@1.89.0(oxlint-tsgolint@7.0.2005))
       eslint-plugin-storybook: 10.3.6(eslint@9.39.4(supports-color@7.2.0))(storybook@10.3.6(@testing-library/dom@10.4.1)(react-dom@19.3.1(react@19.3.1))(react@19.3.1))(supports-color@7.2.0)(typescript@6.0.3)
       oxlint: 1.89.0(oxlint-tsgolint@7.0.2005)
       oxlint-tsgolint: 7.0.2005
