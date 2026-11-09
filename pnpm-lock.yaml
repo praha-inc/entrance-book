@@ -194,8 +194,8 @@ importers:
         specifier: 15.8.0
         version: 15.8.0(supports-color@7.2.0)
       textlint-rule-preset-smarthr:
-        specifier: 1.38.2
-        version: 1.38.2(supports-color@7.2.0)
+        specifier: 1.38.3
+        version: 1.38.3(supports-color@7.2.0)
     devDependencies:
       '@praha/oxlint-config-react':
         specifier: 1.0.3
@@ -1781,6 +1781,9 @@ packages:
   argparse@2.0.1:
     resolution: {integrity: sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==}
 
+  argparse@3.0.4:
+    resolution: {integrity: sha512-fwWK3Zq22l4XJJjx5mcBHGikIk+hJqO+32dPm0Jur7+rtG5x1scOjSfdT9ZKeWHPpsya/l0HHK4tDImBkTrtvA==}
+
   aria-hidden@1.2.6:
     resolution: {integrity: sha512-ik3ZgC9dY/lYVVM++OISsaYDeg1tb0VtP5uL3ouh1koGOaUMDPpbFIei4JkFimWUFPn90sbMNMXQAIVOlnYKJA==}
     engines: {node: '>=10'}
@@ -3020,6 +3023,10 @@ packages:
 
   js-yaml@4.3.2:
     resolution: {integrity: sha512-SFNOvSJ+Dgf/9An904Yx+CgSlIPCkIpao4qo51lpee25TIRejdH3rhR4EZMGoNx3/TP3O+wzWuiTFl4sqbltzA==}
+    hasBin: true
+
+  js-yaml@5.5.0:
+    resolution: {integrity: sha512-paNr4LFIFPjeeSmwNYdrb8FafLLG/Cr2Af3GjbsHJ5CxIjH4r0c2emlmRdAtpPAieP1gRVzk6buBbVP5gBMGAg==}
     hasBin: true
 
   jsesc@3.1.0:
@@ -4297,8 +4304,8 @@ packages:
   textlint-rule-no-nfd@2.0.2:
     resolution: {integrity: sha512-lIUvcQ+wqtConpPQU2YwEJl2dRcRyyrxPYZ3V76UwnkVg++XPLIrE5mLDgyNE/UIQ34e/KitJfMLqKWvnkFbNQ==}
 
-  textlint-rule-preset-smarthr@1.38.2:
-    resolution: {integrity: sha512-fJ4XAkwv9Z1zWJgit2LNpSf408R/BEz3pq5PwgtQzP3auqzgyy04VYCXx3GtYdLO2wo8TT7GMAbB6MWYt0lP2Q==}
+  textlint-rule-preset-smarthr@1.38.3:
+    resolution: {integrity: sha512-3VCSf2WKnbfxP0PgTHP8hSIGJ3tNOPWRSetjQxUwevjF7exFV6+53+I9BhEb2vbUWDiDvXREfpfNQ8djz9IRNg==}
 
   textlint-rule-prh@5.3.0:
     resolution: {integrity: sha512-gdod+lL1SWUDyXs1ICEwvQawaSshT3mvPGufBIjF2R5WFPdKQDMsiuzsjkLm+aF+9d97dA6pFsiyC8gSW7mSgg==}
@@ -6143,6 +6150,8 @@ snapshots:
 
   argparse@2.0.1: {}
 
+  argparse@3.0.4: {}
+
   aria-hidden@1.2.6:
     dependencies:
       tslib: 2.8.1
@@ -7583,6 +7592,10 @@ snapshots:
   js-yaml@4.3.2:
     dependencies:
       argparse: 2.0.1
+
+  js-yaml@5.5.0:
+    dependencies:
+      argparse: 3.0.4
 
   jsesc@3.1.0: {}
 
@@ -9577,12 +9590,12 @@ snapshots:
       match-index: 1.0.3
       textlint-rule-helper: 2.5.0
 
-  textlint-rule-preset-smarthr@1.38.2(supports-color@7.2.0):
+  textlint-rule-preset-smarthr@1.38.3(supports-color@7.2.0):
     dependencies:
       '@textlint-rule/textlint-rule-no-unmatched-pair': 2.0.4
       '@textlint-rule/textlint-rule-pattern': 2.0.2
       '@textlint/module-interop': 15.8.0
-      js-yaml: 4.3.2
+      js-yaml: 5.5.0
       textlint-rule-ja-hiragana-daimeishi: 1.0.0
       textlint-rule-ja-hiragana-hojodoushi: 1.1.0
       textlint-rule-ja-keishikimeishi: 1.0.5
