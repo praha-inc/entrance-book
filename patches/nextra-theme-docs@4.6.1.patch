@@ -1,0 +1,17 @@
+diff --git a/dist/schemas.js b/dist/schemas.js
+index 060d0b98b76515e4f0a1cd9edb3c3f5d31597540..0cfb218b0d73919045ff3663aa6d2b123556d393 100644
+--- a/dist/schemas.js
++++ b/dist/schemas.js
+@@ -65,7 +65,11 @@ const LayoutPropsSchema = z.strictObject({
+   banner: reactNode.optional().meta({
+     description: "Rendered [`<Banner>` component](/docs/built-ins/banner). E.g. `<Banner {...bannerProps} />`"
+   }),
+-  children: reactNode,
++  // Layout は children を取り除いてから safeParse するため、必須のままだと zod 4.4 以降で
++  // "expected nonoptional" になる(shuding/nextra#4989)。上流 main は #4990 で layout 側を
++  // 直したが npm 未リリースのため、zod 4.3 までと同じ挙動になる schema 側の optional 化で回避する。
++  // #4990 を含む版に上げたらこのパッチは削除する
++  children: reactNode.optional(),
+   copyPageButton: z.boolean().default(true).meta({
+     description: "Hide/show copy page content button."
+   }),
