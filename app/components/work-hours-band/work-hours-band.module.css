@@ -1,0 +1,67 @@
+/* 年収グラフ（salary-chart）と同じ色・背景・凡例の見た目にそろえる */
+.band {
+  --band-color: #6366f1;
+  --band-border: rgba(0, 0, 0, 0.1);
+  --band-text: #71717a;
+  --band-bg: linear-gradient(180deg, rgba(249, 250, 251, 0.8) 0%, rgba(249, 250, 251, 0.4) 100%);
+
+  display: grid;
+  gap: 12px;
+  margin-top: 24px;
+  padding: 16px;
+  border-radius: 16px;
+  background: var(--band-bg);
+}
+
+:global(.dark) .band {
+  --band-border: rgba(255, 255, 255, 0.1);
+  --band-text: #a1a1aa;
+  --band-bg: linear-gradient(180deg, rgba(17, 17, 17, 0.6) 0%, rgba(17, 17, 17, 0.3) 100%);
+}
+
+.band svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px 16px;
+}
+
+.title {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.legend {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 6px 12px;
+  border: 1px solid var(--band-border);
+  border-radius: 6px;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--band-text);
+}
+
+.legend > span:first-child {
+  margin-right: 4px;
+}
+
+.legend > span:last-child {
+  margin-left: 4px;
+}
+
+.swatch {
+  display: block;
+  width: 20px;
+  height: 10px;
+  border-radius: 2px;
+  background: var(--band-color);
+}
